@@ -47,7 +47,8 @@ module.exports = {
     }*/
 
   },
-  modules: [{
-    src: 'bootstrap-vue/nuxt',
-  }]
+  modules: [
+    {src: 'bootstrap-vue/nuxt'},
+    ['nuxt-matomo', { matomoUrl: '//matomo.steampixel.de/', siteId: 2 }]
+  ]
 }
