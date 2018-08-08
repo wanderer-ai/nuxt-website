@@ -39,9 +39,20 @@
 
       </div>
     </div>
+    <no-ssr>
+      <cookie-law theme="dark-lime" buttonLinkText="Privacy Policy" buttonLink="/privacy-policy"></cookie-law>
+    </no-ssr>
 
   </footer>
 </template>
+
+<script>
+  import CookieLaw from 'vue-cookie-law'
+  export default {
+    components: { CookieLaw }
+  }
+</script>
+
 
 <style>
 
@@ -49,6 +60,28 @@
 
   .github, .twitter {
       fill: #bababa;
+  }
+
+  /* Cookie bar */
+  .Cookie--dark-lime {
+      background: #111 !important;
+      color: #fff !important;
+      padding: 1em !important;
+  }
+
+  .Cookie--dark-lime .Cookie__button {
+      background: #27A844 !important;
+  }
+
+  .Cookie--dark-lime .Cookie__button:hover {
+      background: #27A844 !important;
+  }
+
+  .Cookie--dark-lime .Cookie__button {
+      background: #27A844 !important;
+      padding: 0.5em 0.5em !important;
+      color: #fff !important;
+      border-radius: 0 !important;
   }
 
 </style>

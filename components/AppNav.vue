@@ -24,6 +24,13 @@
                 </a>
               </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="/imprint">
+                  <i class="now-ui-icons design_app"></i>
+                  <span>Imprint</span>
+                </a>
+              </li>
+
 
 
               <!--<li class="nav-item">
