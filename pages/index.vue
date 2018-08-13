@@ -81,7 +81,7 @@
                   <div class="col">
                     <h2>Transparent, Privacy by default, Open Source</h2>
                     <p>
-                      It should never be best practice to send user input to intransparent server systems. Build a bot that respects privacy!
+                      It should never be best practice to send every user input to intransparent server systems. Build a bot that respects privacy!
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@
                       <h2>Free the knowledge!</h2>
                       <p>
                         Stop encapsulating expert knowledge in complex and cumbersome program code or server black boxes.
-                        Knowledge should be acessible by all people.
+                        Knowledge should be easily accessible by all people.
                       </p>
                     </div>
                   </div>

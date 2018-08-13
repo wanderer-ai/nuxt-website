@@ -27,40 +27,51 @@
           <img class="author" src="/images/chris.jpg" title="Christoph Stitz" alt="Christoph Stitz">
 
           <p>
-          Hey! My name is Chris. I am developer, coder and enthusiastic freelancer from Würzburg, Germany.
-          I am also the maintainer and developer of Wanderer.ai.</p>
+            Hey! My name is Chris. I am developer, coder and enthusiastic web freelancer from Würzburg, Germany.
+            I am also the maintainer and developer of Wanderer.ai.
+          </p>
 
-          <p>A while ago me and a friend of mine where spending much time in a software as a service project.
+          <p>
+            A while ago me and a friend of mine where spending much time in a software as a service project.
             The goal was to help and support people writing unique and beautifull blog articles.
-            The core of the product should be a chatbot that guides people through the process and give tips while writing.</p>
+            The core of the product was a chatbot that should guide people through the process and give tips while writing.
+          </p>
 
-          <p>But at this time it was not possible for us to find a chatbot solution that fits our needs.
+          <p>
+            But at this time it was not possible for us to find a chatbot solution or service platform that fits our needs.
             Complex flow editors, cumbersome self programming, intransparent pricing models and imposed brandings where only a few stones on our way.
             But the biggest problem was, that it was just not possible to react to the complex context of the conversation in a easy and elegant way
-            without heavily increasing the complexity of the chatbot flow and the program code</p>
+            without heavily increasing the complexity of the chatbot flow and our program code.
+          </p>
 
-          <p>I also realized that we were packing very specific expert knowledge in a bulky format and bury it forever on the servers of the Chatbot platforms.
-            Besides, the thought does not seem to make sense for any conversation to connect to innumerable servers.</p>
+          <p>
+            I also realized that we were packing very specific expert knowledge in a bulky format and bury it forever on servers and inside platforms.
+            Besides, it does not seemed to make sense for the conversation sending every request to serveral apis and servers.
+          </p>
 
           <h2 id="technology">Technology</h2>
 
-          <p>Unfortunatily we had to give up the project because it was to complex to map human conversations in an expert system. But the idea of an chatbot remaind.
+          <p>
+            Unfortunatily we had to give up the project because it was to complex to map our conversational flow in our expert system. But the idea of the chatbot itself remaind.
             I asked myself if there is an easy and elegant way of storing and maintaining complex contexts and its reactions.
             Then I remembered a technology I researched a few years ago. At this time I was playing with graph databases and traversal algorithms.
             I suddenly had the Idea of storing conversational structures inside a graph model. Suprisingly this was very easy and I regocnized, that a graph can do even more.
-            It cannot only store data, it can also contain all the logic at graph level, that is normaly depicted with a programming language.
+            It cannot only store data, it can also contain simple logical structures at graph level, which are normaly depicted with a programming language.
             I called this structure a <strong>logic graph</strong>. Than I discovered, that a logic graph can be executed by folowwing the rules of a simple traversal algorithm.
-            At this moment I was able to simply ask the graph structure: “What is the next logic action based on your current knowledge?”
-            And the graph will answere imidially. I called this technology <strong>logic graph traversal</strong>.</p>
+            At this moment I was able to simply ask the graph structure: “What is the next logic action based on your expert knowledge and my previous conversation?”
+            And the graph will answere imidially. I called this technology <strong>logic graph traversal</strong>.
+          </p>
 
-          <p>A logic graph has the possibility to drive very complex, context dependent applications. Its in fact some kind of an AI technologie.
-            Its definitly an expert system but it has some advantages over other expert systems:</p>
+          <p>
+            A logic graph has the possibility to drive very complex, context dependent applications. In fact this is some kind of an AI technologie.
+            It's definitly an expert system but it has some advantages over other expert systems:
+          </p>
 
           <ul>
             <li>There is no difference between programm code and data</li>
             <li>It can be stored directly in a graph database without abstraction</li>
             <li>It can be executed directly by simply traversing the structure</li>
-            <li>Its very flexible, able to learn and can be maintained easily</li>
+            <li>It's very flexible, able to learn and can be maintained easily</li>
           </ul>
 
           <h2 id="the-goal">The goal</h2>
