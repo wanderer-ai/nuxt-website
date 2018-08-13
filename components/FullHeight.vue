@@ -28,7 +28,6 @@
         // Only resize the height if the height and the width of the screen has changed.
         // Only if the width and height has changed the screen orientation has changed.
         if(window.innerWidth!==this.oldInnerWidth&&window.innerHeight!==this.oldInnerHeight){
-          console.log('resize')
           this.oldInnerWidth = window.innerWidth;
           this.oldInnerHeight = window.innerHeight;
           this.elementHeight = window.innerHeight+'px';
