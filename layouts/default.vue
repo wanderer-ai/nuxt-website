@@ -84,7 +84,7 @@
     height:100%;
   }
 
-  .full-high-image {
+  .full-hight-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100% ;
@@ -144,7 +144,7 @@
   }
 
   /* full height */
-  .full-height{
+  /*.full-height{
     height: 100vh;
     position: relative;
   }
@@ -156,7 +156,7 @@
   .half-height{
     height: 50vh;
     position: relative;
-  }
+  }*/
 
   /* highlight section */
   .highlight{

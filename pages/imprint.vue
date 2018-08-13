@@ -6,13 +6,13 @@
 
         <app-nav/>
 
-        <div class="half-height highlight-gray">
+        <half-height class="highlight-gray">
 
              <div class="hero-text">
                <h1>Imprint</h1>
              </div>
 
-        </div>
+        </half-height>
 
         <div class="separator-top-right seperator-up"></div>
 
@@ -86,10 +86,11 @@
 
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
+import HalfHeight from '~/components/HalfHeight.vue'
 
 export default {
   components: {
-    AppNav, AppFooter
+    AppNav, AppFooter, HalfHeight
   }
 }
 

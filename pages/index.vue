@@ -6,7 +6,7 @@
 
         <app-nav/>
 
-        <div class="cover-image full-height" style="background-image: url('/images/shoes3.jpg');">
+        <full-height class="cover-image" style="background-image: url('/images/shoes3.jpg');">
 
           <div class="background-filter">
              <div class="hero-text">
@@ -16,7 +16,7 @@
              </div>
           </div>
 
-        </div>
+        </full-height>
 
         <div class="separator-top-right seperator-up separator-green"></div>
 
@@ -36,7 +36,7 @@
 
         <section class="highlight highlight-green">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col-sm d-none d-md-block">
                     <!--<img src="/images/smartphone.png" class="full-height--img">-->
@@ -46,15 +46,15 @@
                     <p>Like a wanderer this software traverses the complex context of expert knowledge to create a unique chat experience.</p>
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
         <div class="separator-bottom-right seperator-down separator-green"></div>
 
-        <section class="full-high-image seperator-compensate" style="background-image: url('/images/graph6.JPG');">
+        <section class="full-hight-image seperator-compensate" style="background-image: url('/images/graph6.JPG');">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col-sm">
                     <div class="glass">
@@ -68,7 +68,7 @@
 
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
@@ -76,7 +76,7 @@
 
         <section class="highlight highlight-blue">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col">
                     <h2>Transparent, Privacy by default, Open Source</h2>
@@ -85,15 +85,15 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
         <div class="separator-bottom-right seperator-down separator-blue"></div>
 
-        <section class="full-high-image seperator-compensate" style="background-image: url('/images/graph7.JPG');">
+        <section class="full-hight-image seperator-compensate" style="background-image: url('/images/graph7.JPG');">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col-sm d-none d-lg-block">
 
@@ -108,7 +108,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
@@ -116,7 +116,7 @@
 
         <section class="highlight highlight-yellow">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row w-100">
                   <div class="col">
                     <h2 class="techstack--header">Driven by a modern technology stack</h2>
@@ -128,15 +128,15 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
         <div class="separator-bottom-right seperator-down separator-yellow"></div>
 
-        <section class="full-high-image seperator-compensate" style="background-image: url('/images/graph8.JPG');">
+        <section class="full-hight-image seperator-compensate" style="background-image: url('/images/graph8.JPG');">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col-sm">
                     <div class="glass">
@@ -150,7 +150,7 @@
 
                   </div>
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
@@ -158,7 +158,7 @@
 
         <section class="highlight highlight-red">
             <div class="container">
-              <div class="full-height d-flex align-items-center">
+              <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col">
                     <h2>Want to learn more?</h2>
@@ -176,7 +176,7 @@
                     </p>
                   </div>-->
                 </div>
-              </div>
+              </full-height>
             </div>
         </section>
 
@@ -193,10 +193,11 @@
 <script>
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
+import FullHeight from '~/components/FullHeight.vue'
 
 export default {
   components: {
-    AppNav, AppFooter
+    AppNav, AppFooter, FullHeight
   }
 }
 </script>

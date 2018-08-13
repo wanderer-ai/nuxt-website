@@ -6,7 +6,7 @@
 
         <app-nav/>
 
-        <div class="cover-image full-height" style="background-image: url('/images/shoes.jpg');">
+        <full-height class="cover-image" style="background-image: url('/images/shoes.jpg');">
 
           <div class="background-filter">
              <div class="hero-text">
@@ -14,7 +14,7 @@
              </div>
           </div>
 
-        </div>
+        </full-height>
 
         <div class="separator-top-right seperator-up"></div>
 
@@ -92,10 +92,11 @@
 
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
+import FullHeight from '~/components/FullHeight.vue'
 
 export default {
   components: {
-    AppNav, AppFooter
+    AppNav, AppFooter, FullHeight
   }
 }
 
