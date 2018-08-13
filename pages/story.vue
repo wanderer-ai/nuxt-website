@@ -57,14 +57,14 @@
             Then I remembered a technology I researched a few years ago. At this time I was playing with graph databases and traversal algorithms.
             I suddenly had the Idea of storing conversational structures inside a graph model. Suprisingly this was very easy and I regocnized, that a graph can do even more.
             It cannot only store data, it can also contain simple logical structures at graph level, which are normaly depicted with a programming language.
-            I called this structure a <strong>logic graph</strong>. Than I discovered, that a logic graph can be executed by folowwing the rules of a simple traversal algorithm.
+            I called this structure a <strong>logic graph</strong>. Than I discovered, that a logic graph can be executed by following the rules of a simple traversal algorithm.
             At this moment I was able to simply ask the graph structure: “What is the next logic action based on your expert knowledge and my previous conversation?”
             And the graph will answere imidially. I called this technology <strong>logic graph traversal</strong>.
           </p>
 
           <p>
             A logic graph has the possibility to drive very complex, context dependent applications. In fact this is some kind of an AI technologie.
-            It's definitly an expert system but it has some advantages over other expert systems:
+            It's definitly an expert system but it has some advantages over traditional expert systems:
           </p>
 
           <ul>
