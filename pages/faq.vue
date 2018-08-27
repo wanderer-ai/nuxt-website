@@ -34,7 +34,7 @@
             That's not very clear right now. But it will be an open source license like MIT or Apache2.
           </p>
 
-          <h2>Does the project use deep learning or neural networks?</h2>
+          <h2>Does the project use deep learning or neuronal networks?</h2>
           <p>
             No. The core of the project uses a logic graph to find the next meaningful action based on a complex context.
             This technology combines some kind of flow programming with traversal algorithms.
@@ -61,12 +61,12 @@
           <h2>Can I integrate third-party chat channels like WhatsApp or Facebook?</h2>
           <p>
             No. Since Wanderer.ai currently only runs in the front end, the connection of other chat channels is technically not possible.
-            If the project and the technology are successful, we will think about a server variant.
+            If the project and the technology are successful, I will think about a server variant.
           </p>
 
           <h2>Can I improve the flow based on statistics?</h2>
           <p>
-            This is not possible at the moment. But as soon as possible we will integrate a feature that will allow users to donate their data to visualize the user experience.
+            This is not possible at the moment. But as soon as possible I will integrate a feature that will allow users to donate their data to visualize the user experience.
           </p>
 
           <h2>Is it possible to use NLP and speech recognition?</h2>
@@ -78,9 +78,9 @@
           <p>
             This has several reasons:
             <ul>
-              <li>We want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
-              <li>We want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
-              <li>We want to explore how bots can deliver great results for users with maximum privacy</li>
+              <li>I want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
+              <li>I want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
+              <li>I want to explore how bots can deliver great results for users with maximum privacy</li>
             </ul>
           </p>
 
