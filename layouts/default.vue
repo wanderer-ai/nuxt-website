@@ -48,8 +48,13 @@
     color: #000;
   }
 
-  a:hover {
+  a:hover, a:focus {
     color: #000;
+    text-decoration: underline;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    text-decoration: underline;
   }
 
   /* Navigation */
@@ -57,8 +62,12 @@
     color: #fff;
   }
 
-  nav a:hover {
+  nav a:hover, nav a:focus {
     color: #fff;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    text-decoration: underline;
   }
 
   /* Spaces */
