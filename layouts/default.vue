@@ -101,8 +101,13 @@
     color: white;
   }
 
+  .hero-text img{
+    margin-bottom:15px;
+  }
+
   .hero-text h1{
     font-size: 5rem;
+    margin-bottom:25px;
   }
 
   .hero-text h2{
