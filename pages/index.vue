@@ -79,7 +79,7 @@
               <full-height class="d-flex align-items-center">
                 <div class="row">
                   <div class="col">
-                    <h2>Transparent, Privacy by default, Open Source</h2>
+                    <h2>Transparent, Privacy by design, Open Source</h2>
                     <p>
                       It should never be best practice to send every user input to intransparent server systems. Build a bot that respects privacy!
                     </p>
@@ -125,6 +125,7 @@
                       <div class="col techstack--item"><a target="_blank" href="http://js.cytoscape.org/"><img src="/images/stack/cytoscape.png" title="Cytoscape" alt="Cytoscape" /></a></div>
                       <div class="col techstack--item"><a target="_blank" href="https://nodejs.org/en/"><img src="/images/stack/nodejs.png" title="NodeJs" alt="NodeJs" /></a></div>
                       <div class="col techstack--item"><a target="_blank" href="https://vuejs.org/"><img src="/images/stack/vue.png" title="Vue" alt="Vue" /></a></div>
+                      <div class="col techstack--item"><a target="_blank" href="https://lernajs.io/"><img src="/images/stack/lerna.png" title="Lerna" alt="Lerna" /></a></div>
                     </div>
                   </div>
                 </div>
