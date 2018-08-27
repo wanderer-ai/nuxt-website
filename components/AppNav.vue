@@ -25,41 +25,18 @@
               </li>
 
               <li class="nav-item">
+                <a class="nav-link" href="/faq">
+                  <i class="now-ui-icons design_app"></i>
+                  <span>FAQ</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
                 <a class="nav-link" href="/imprint">
                   <i class="now-ui-icons design_app"></i>
                   <span>Imprint</span>
                 </a>
               </li>
-
-
-
-              <!--<li class="nav-item">
-                <a class="nav-link" href="/builder">
-                  <i class="now-ui-icons business_bank"></i>
-                  <span>Builder</span>
-                </a>
-              </li>
-
-
-
-              <li class="nav-item">
-                <a class="nav-link" href="/chat">
-                  <i class="now-ui-icons users_single-02"></i>
-                  <span>Chat</span>
-                </a>
-              </li>-->
-
-
-
-              <!--<li class="nav-item">
-                <a class="nav-link" href="/blog">
-                  <i class="now-ui-icons clothes_tie-bow"></i>
-                  <span>Blog</span>
-                </a>
-              </li>-->
-
-
-
 
               </ul>
           </div>
