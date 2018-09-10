@@ -26,7 +26,7 @@
 
           <h2>What is the current status of the project?</h2>
           <p>
-            Currently you can not use Wanderer.ai. The project is in a very early stage of development.
+            Currently you cannot use Wanderer.ai. The project is in a very early stage of development.
           </p>
 
           <h2>Under which license will the software be available?</h2>
@@ -46,12 +46,12 @@
             You should first ask yourself what the benefit of your chatbot should be.
             Should the chatbot primarily help the user to solve their own problem?
             Or should the bot influence the user with invisible and secret information to reach a hidden goal defined by the company?
-            I believe in general that transparent chatbots will create more confidence between customers and a company. 
+            In general, I believe that transparent chatbots will create more trust between customers and a company.
           </p>
 
           <h2>Can I run the chatbots server side?</h2>
           <p>
-            No. At the moment this is not supported. Theoretically, that is possible. But you have to implement that yourself.
+            No. At the moment this is not supported. This may be supported in the future.
           </p>
 
           <h2>Can a bot communicate with third-party APIs?</h2>
@@ -68,7 +68,7 @@
 
           <h2>Can I integrate third-party chat channels like WhatsApp or Facebook?</h2>
           <p>
-            No. Since Wanderer.ai currently only runs in the front end, the connection of other chat channels is technically not possible.
+            No. Since Wanderer.ai currently only runs in front end, the connection to other chat channels is technically not possible at the moment.
             If the project and the technology are successful, I will think about a server variant.
           </p>
 
@@ -82,13 +82,13 @@
             Yes. This can either be done via APIs or pure front end technologies can be used.
           </p>
 
-          <h2>Why is everything happening in the front end?</h2>
+          <h2>Why is everything happening in front end?</h2>
           <p>
             This has several reasons:
             <ul>
               <li>I want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
               <li>I want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
-              <li>I want to explore how bots can deliver great results for users with maximum privacy</li>
+              <li>I want to explore how bots can deliver great results for users with maximum privacy.</li>
             </ul>
           </p>
 
