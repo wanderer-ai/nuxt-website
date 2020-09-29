@@ -1,116 +1,154 @@
 <template>
 
-    <div class="separator-wrapper">
+    <div>
 
-      <header>
+      <page-hero color="yellow" header="Frequently asked questions"></page-hero>
 
-        <app-nav/>
+      <div class="separator-top-left seperator-up separator-white"></div>
 
-        <full-height class="cover-image" style="background-image: url('/images/roads.jpg');">
+      <div class="container narrow content">
 
-          <div class="background-filter">
-             <div class="hero-text">
-               <h1>Frequently asked questions</h1>
-             </div>
-          </div>
+        <h2>What is the current status of the project?</h2>
+        <p>
+          Currently you cannot use Wanderer.ai in production projects. The project is in a early stage of development.
+          But you can already use the bot builder to build and test your chatbots. Feedback is welcome.
+        </p>
 
-        </full-height>
+        <h2>The chatbot is reactive and non blocking. What does that mean?</h2>
+        <p>
+          That means that the programm will generate a pulsing traversal structure :-) Ok. That sounds very nerdy.
+          So let me explain this:
+          Thanks to this kind of technology the graph don't have to wait for user input to generate new conclusions.
+          Imagine the following situation: The bot can hand over a question with a few suggestions to the chat.
+          Than the bot will wait for user input. But while it waits for user input the context and the situation can change.
+          So the current question or topic can become useless or subordinate.
+          So for example while the bot waits a timer can expire or an API or the website can generate some other contextual information.
+          The bot than will take all the new information into account and will for example prefer suddenly another question.
+          Its like in real life: While you're talking to your friend about getting into the pool today, it could suddenly start raining.
+          So the whole topic becomes useless. The topic will than change an you will maybe continue talking about the newest cinema films.
+        </p>
 
-        <div class="separator-top-right seperator-up"></div>
+        <h2>What makes the logic graph so special?</h2>
+        <p>
+          In short, there are no active blocking nodes as in many other chatbots.
+          Each time an underlying piece of information changes, the graph will include the entire context again.
+          This means that past conclusions, decisions and actions are questioned again.
+          Through this technology, different tasks can be parallelized and the conversation becomes more dynamic.
+          It also makes no difference how and when information gets into the graph.
+          Information can be actively inquired, responded by APIs, provided before the conversation starts, or injected by external processes at any time.
+          This means that a logic graph responds to the whole environment rather than just the user input.
+          New information affects the whole graph, not just the next question or action.
+        </p>
 
-      </header>
+        <h2>What means privacy by design?</h2>
+        <p>
+          Since this bot runs completely in the users browser, it will not communicate any user input or information to any servers by default.
+          Yes of course: You can use API-Nodes and Webhocks. But you have to build such a structure first. So its your descission if you want to send
+          user input to somewhere. Also you can decide on your own which information will be sent to which servers.
+        </p>
 
-      <main>
+        <h2>Can I use the bot builder for free?</h2>
+        <p>
+          Yes! Absolutely. Like the chatbot itself the botbuilder is open source and does not need any serverside software.
+          So you can just host it by yourself or you can use the botbuilder hosted by Wanderer.ai. You don't have to register for this application.
+          All your chatbots can be downloaded and stored directly to your computer in a transparent JSON-Format. Wanderer.ai will not store any chatbot for you.
+          Using the same files you can just open the botbuilder website and restore your chat flow from a previously downloaded file.
+        </p>
 
-        <div class="container seperator-compensate text-spacing">
+        <h2>How can I embed the chatbot to a website?</h2>
+        <p>
+          Note: This is not possible at the moment because the chatbot webcomponent ist not ready for production right now! But yes. This is planned.
+          First you have to download your chatbot flow file from the Wanderer Builder. You can store it than for example to your websites filesystem.
+          Than you can simply include a JavaScript webcomponent to your website that will then load your flow. Thats it.
+        </p>
 
-          <h2>What is the current status of the project?</h2>
-          <p>
-            Currently you cannot use Wanderer.ai. The project is in a very early stage of development.
-          </p>
+        <h2>Under which license will the software be available?</h2>
+        <p>
+          For this project I will pursuing an open core strategy. That means that the core and most of the packages will be available under AGPLv3.
+          That means, that you can build and run basic projects for free.
+          The rest of the packages will be available under a commercial license.
+          So you have to purchase a license if you plan to host a chatbot using a commercial package on a public domain.
+          But the detailed terms are not very clear right now.
+        </p>
 
-          <h2>Under which license will the software be available?</h2>
-          <p>
-            That's not very clear right now. But it will be an open source license like MIT or Apache2.
-          </p>
+        <h2>Can you tell me something about the future pricing model?</h2>
+        <p>
+          As I mentioned before you need to purchase a license key, if you plan to run a chatbot using a commercial package. The pricing model is not very clear right now.
+          But I want to keep it simple. So you have to purchase a license code for each domain for each commercial package you are using.
+        </p>
 
-          <h2>Does the project use deep learning or neuronal networks?</h2>
-          <p>
-            No. The core of the project uses a logic graph to find the next meaningful action based on a complex context.
-            This technology combines some kind of flow programming with traversal algorithms.
-            Nevertheless, deep learning and neuronal networks can be coupled to generate new information for the graph.
-          </p>
+        <h2>Does the project use deep learning or neuronal networks?</h2>
+        <p>
+          No. The core of the project uses a logic graph to find the next meaningful action based on a complex context.
+          This technology combines some kind of flow programming with traversal algorithms and graph theory.
+          Nevertheless, deep learning and neuronal networks can be coupled through APIs to generate new information for the graph.
+        </p>
 
-          <h2>Why should my company use a chatbot that is transparent to the user?</h2>
-          <p>
-            You should first ask yourself what the benefit of your chatbot should be.
-            Should the chatbot primarily help the user to solve their own problem?
-            Or should the bot influence the user with invisible and secret information to reach a hidden goal defined by the company?
-            In general, I believe that transparent chatbots will create more trust between customers and a company.
-          </p>
+        <h2>Why should my company use a chatbot that is transparent to the user?</h2>
+        <p>
+          You should first ask yourself what the benefit of your chatbot should be.
+          Should the chatbot primarily help the user to solve their own problem?
+          Or should the bot influence the user with invisible and secret information to reach a hidden goal defined by the company?
+          In general, I believe that transparent chatbots will create more trust between customers and a company.
+        </p>
 
-          <h2>Can I run the chatbots server side?</h2>
-          <p>
-            No. At the moment this is not supported. This may be supported in the future.
-          </p>
+        <h2>I cannot use logic inside message templates. Why?</h2>
+        <p>
+          This project uses logic-less templates powered by Mustache.js. That means that you can output data to your messages.
+          But logic is not supported inside messages itself. You cannot declare variables or call functions from inside templates.
+          The reason is, that the logic should be depicted through the graph structure and not inside hidden and cumbersome templates.
+          This is part of the strict design pattern of Wanderer.ai
+        </p>
 
-          <h2>Can a bot communicate with third-party APIs?</h2>
-          <p>
-            Yes. The bot can communicate with all sorts of APIs that support JSON.
-          </p>
+        <h2>Can I run the chatbots server side?</h2>
+        <p>
+          No. At the moment this is not supported. This may be supported in the future.
+        </p>
 
-          <h2>How can I secure my API keys if the bot runs completely in the browser?</h2>
-          <p>
-            That's a really good question. In general, API communication should be reduced as much as possible.
-            This creates systems that are less dependent, more data protection friendly and easier to maintain. However, Wanderer.ai will not stop you from targeting APIs.
-            If you need API keys, you should first redirect the requests through your own server, which attaches the keys to the request.
-          </p>
+        <h2>Can a bot communicate with third-party APIs?</h2>
+        <p>
+          Yes. The bot can communicate with all sorts of APIs that will response pure JSON.
+        </p>
 
-          <h2>Can I integrate third-party chat channels like WhatsApp or Facebook?</h2>
-          <p>
-            No. Since Wanderer.ai currently only runs in front end, the connection to other chat channels is technically not possible at the moment.
-            If the project and the technology are successful, I will think about a server variant.
-          </p>
+        <h2>How can I secure my API keys if the bot runs completely in the browser?</h2>
+        <p>
+          That's a really good question. In general, API communication should be reduced as much as possible.
+          This creates systems that are less dependent, more data protection friendly and easier to maintain. However, Wanderer.ai will not stop you from targeting APIs.
+          If you need API keys, you should first redirect the requests through your own server, which attaches the keys to the request.
+        </p>
 
-          <h2>Can I improve the flow based on statistics?</h2>
-          <p>
-            This is not possible at the moment. But as soon as possible I will integrate a feature that will allow users to donate their data to visualize the user experience.
-          </p>
+        <h2>Can I integrate third-party chat channels like WhatsApp or Facebook?</h2>
+        <p>
+          No. Since Wanderer.ai currently only runs in front end, the connection to other chat channels is technically not possible at the moment.
+          If the project and the technology are successful, I will think about a server variant. But for the moment this is a brwoser only solution.
+        </p>
 
-          <h2>Is it possible to use NLP and speech recognition?</h2>
-          <p>
-            Yes. This can either be done via APIs or pure front end technologies can be used.
-          </p>
+        <h2>Can I improve the flow based on statistics?</h2>
+        <p>
+          This is not possible at the moment because the software is privacy by design.
+          But you can however ask the users for data donations and you can than collect the user information through an API for example.
+          But you can also use analytics services like Google Analytics or etracker for example to get insights to the users flow.
+        </p>
 
-          <h2>Why is everything happening in front end?</h2>
-          <p>
-            This has several reasons:
-            <ul>
-              <li>I want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
-              <li>I want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
-              <li>I want to explore how bots can deliver great results for users with maximum privacy.</li>
-            </ul>
-          </p>
+        <h2>Is it possible to use NLP?</h2>
+        <p>
+          NLP is a really big topic. So in general you can use all Services, that are reachable through an API.
+          But there are plans to implement a very simple pattern based uterrances system. So you can extract some simple intents.
+        </p>
 
-          <h2>What makes the logic graph so special?</h2>
-          <p>
-            In short, there are no active blocking nodes as in many other chatbots.
-            Each time an underlying piece of information changes, the graph will include the entire context again.
-            This means that past conclusions, decisions and actions are questioned again.
-            Through this technology, different tasks can be parallelized and the conversation becomes more dynamic.
-            It also makes no difference how and when information gets into the graph.
-            Information can be actively inquired, responded by APIs, provided before the conversation starts, or injected by external processes at any time.
-            This means that a logic graph responds to the whole environment rather than just the user input.
-            New information affects the whole graph, not just the next question or action.
-          </p>
+        <h2>Why is everything happening in front end?</h2>
+        <p>
+          This has several reasons:
+          <ul>
+            <li>I want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
+            <li>I want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
+            <li>I want to explore how bots can deliver great results for users with maximum privacy.</li>
+          </ul>
+        </p>
 
-        </div>
+      </div>
 
-        <div class="separator-bottom-right seperator-down"></div>
-
-      </main>
-
-      <app-footer />
+      <div class="separator-bottom-right seperator-down"></div>
 
     </div>
 
@@ -118,13 +156,11 @@
 
 <script>
 
-import AppNav from '~/components/AppNav.vue'
-import AppFooter from '~/components/AppFooter.vue'
-import FullHeight from '~/components/FullHeight.vue'
+import PageHero from '~/components/PageHero.vue'
 
 export default {
   components: {
-    AppNav, AppFooter, FullHeight
+    PageHero
   }
 }
 
@@ -132,11 +168,5 @@ export default {
 
 <style>
 
-  .author{
-    border-radius: 50px;
-    margin: auto;
-    display: block;
-    margin-bottom: 50px;
-  }
 
 </style>

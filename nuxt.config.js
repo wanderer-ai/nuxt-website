@@ -24,21 +24,21 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    },
+    // extend (config, { isDev, isClient }) {
+    //   if (isDev && isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // },
 
     // Bootstrap is too big for one vendor: Split it up
     // https://github.com/nuxt/nuxt.js/pull/2687
-    vendor: ['bootstrap-vue'],
-    maxChunkSize: 300000 // value in octet
+    // vendor: ['bootstrap-vue'],
+    // maxChunkSize: 300000 // value in octet
 
     /*analyze: true,
     // or
@@ -48,7 +48,10 @@ module.exports = {
 
   },
   modules: [
-    {src: 'bootstrap-vue/nuxt'},
-    ['nuxt-matomo', { matomoUrl: '//matomo.steampixel.de/', siteId: 2 }]
+    // {src: 'bootstrap-vue/nuxt'},
+    // ['nuxt-matomo', { matomoUrl: '//matomo.steampixel.de/', siteId: 2 }]
+  ],
+  buildModules: [
+    '@nuxtjs/tailwindcss'
   ]
 }

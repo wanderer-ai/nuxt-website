@@ -6,13 +6,13 @@
 
         <app-nav/>
 
-        <half-height class="highlight-gray">
+        <section-half-height class="highlight-gray">
 
              <div class="hero-text">
                <h1>Privacy Policy</h1>
              </div>
 
-        </half-height>
+        </section-half-height>
 
         <div class="separator-top-right seperator-up"></div>
 
@@ -132,11 +132,11 @@
 
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
-import HalfHeight from '~/components/HalfHeight.vue'
+import SectionHalfHeight from '~/components/SectionHalfHeight.vue'
 
 export default {
   components: {
-    AppNav, AppFooter, HalfHeight
+    AppNav, AppFooter, SectionHalfHeight
   }
 }
 
