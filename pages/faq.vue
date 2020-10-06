@@ -2,7 +2,7 @@
 
     <div>
 
-      <page-hero color="yellow" header="Frequently asked questions"></page-hero>
+      <page-hero color="red" header="Frequently asked questions"></page-hero>
 
       <div class="separator-top-left seperator-up separator-white"></div>
 
@@ -17,7 +17,7 @@
         <h2>The chatbot is reactive and non blocking. What does that mean?</h2>
         <p>
           That means that the programm will generate a pulsing traversal structure :-) Ok. That sounds very nerdy.
-          So let me explain this:
+          So let me explain:
           Thanks to this kind of technology the graph don't have to wait for user input to generate new conclusions.
           Imagine the following situation: The bot can hand over a question with a few suggestions to the chat.
           Than the bot will wait for user input. But while it waits for user input the context and the situation can change.
@@ -49,10 +49,8 @@
 
         <h2>Can I use the bot builder for free?</h2>
         <p>
-          Yes! Absolutely. Like the chatbot itself the botbuilder is open source and does not need any serverside software.
-          So you can just host it by yourself or you can use the botbuilder hosted by Wanderer.ai. You don't have to register for this application.
-          All your chatbots can be downloaded and stored directly to your computer in a transparent JSON-Format. Wanderer.ai will not store any chatbot for you.
-          Using the same files you can just open the botbuilder website and restore your chat flow from a previously downloaded file.
+          Yes! Absolutely. You can just use the botbuilder on the Wanderer.ai website for free. You don't have to register or pay to use this application.
+          This becomes only relevant if you plan to run the builder or chatbots under your own public domains. In this case you have to purchase a license.
         </p>
 
         <h2>How can I embed the chatbot to a website?</h2>
@@ -60,21 +58,21 @@
           Note: This is not possible at the moment because the chatbot webcomponent ist not ready for production right now! But yes. This is planned.
           First you have to download your chatbot flow file from the Wanderer Builder. You can store it than for example to your websites filesystem.
           Than you can simply include a JavaScript webcomponent to your website that will then load your flow. Thats it.
+          But again. You have to purchase a valid license if you plan to integrate your chatbot to your public website.
         </p>
 
         <h2>Under which license will the software be available?</h2>
         <p>
-          For this project I will pursuing an open core strategy. That means that the core and most of the packages will be available under AGPLv3.
-          That means, that you can build and run basic projects for free.
-          The rest of the packages will be available under a commercial license.
-          So you have to purchase a license if you plan to host a chatbot using a commercial package on a public domain.
+          For the moment this is commercial software.
+          That means that you have to purchase a license if you plan to run the botbuilder or single chatbots on your own website
+          Use the botbuilder and the chatbots for free as long as you use them with the Wanderer.ai domain.
           But the detailed terms are not very clear right now.
         </p>
 
         <h2>Can you tell me something about the future pricing model?</h2>
         <p>
-          As I mentioned before you need to purchase a license key, if you plan to run a chatbot using a commercial package. The pricing model is not very clear right now.
-          But I want to keep it simple. So you have to purchase a license code for each domain for each commercial package you are using.
+          As I mentioned before you need to purchase a license key, if you plan to run a chatbot using a public domain. The pricing model is not very clear right now.
+          But I want to keep it simple. So you have to purchase a license code for each domain to use this software on it.
         </p>
 
         <h2>Does the project use deep learning or neuronal networks?</h2>
@@ -102,7 +100,7 @@
 
         <h2>Can I run the chatbots server side?</h2>
         <p>
-          No. At the moment this is not supported. This may be supported in the future.
+          No. At the moment this is not supported. This will be supported in the future.
         </p>
 
         <h2>Can a bot communicate with third-party APIs?</h2>
@@ -134,16 +132,6 @@
         <p>
           NLP is a really big topic. So in general you can use all Services, that are reachable through an API.
           But there are plans to implement a very simple pattern based uterrances system. So you can extract some simple intents.
-        </p>
-
-        <h2>Why is everything happening in front end?</h2>
-        <p>
-          This has several reasons:
-          <ul>
-            <li>I want to keep the project and the technical dependencies rather small for the moment and focus more on what exactly a logic graph is and what it can do.</li>
-            <li>I want to make integrating bots into existing websites and apps extremely easy and therefore avoid server stacks.</li>
-            <li>I want to explore how bots can deliver great results for users with maximum privacy.</li>
-          </ul>
         </p>
 
       </div>
