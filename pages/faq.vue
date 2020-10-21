@@ -2,6 +2,8 @@
 
     <div>
 
+      <app-nav />
+
       <page-hero color="red" header="Frequently asked questions"></page-hero>
 
       <div class="separator-top-left seperator-up separator-white"></div>
@@ -75,6 +77,12 @@
           But I want to keep it simple. So you have to purchase a license code for each domain to use this software on it.
         </p>
 
+        <h2>Where are the flows stored?</h2>
+        <p>
+          At the moment Wanderer.ai will not store any data for you. So you have to download your flows. You can than store them wherever you want.
+          Store your conversation flow on your device or upload it to GitHub to share it with others.
+        </p>
+
         <h2>Does the project use deep learning or neuronal networks?</h2>
         <p>
           No. The core of the project uses a logic graph to find the next meaningful action based on a complex context.
@@ -145,10 +153,11 @@
 <script>
 
 import PageHero from '~/components/PageHero.vue'
+import AppNav from '~/components/AppNav.vue'
 
 export default {
   components: {
-    PageHero
+    PageHero, AppNav
   }
 }
 

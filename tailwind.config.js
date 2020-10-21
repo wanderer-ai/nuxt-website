@@ -2,8 +2,8 @@
 module.exports = {
   theme: {
     container: {
-      center: true,
-      padding: '3rem'
+      center: true
+      // padding: '3rem'
     },
     colors: {
       black: '#000',

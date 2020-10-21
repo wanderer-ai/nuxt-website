@@ -2,6 +2,8 @@
 
     <div>
 
+      <app-nav />
+
       <page-hero color="blue" header="Imprint"></page-hero>
 
       <div class="separator-top-right seperator-up separator-white"></div>
@@ -67,10 +69,11 @@
 <script>
 
 import PageHero from '~/components/PageHero.vue'
+import AppNav from '~/components/AppNav.vue'
 
 export default {
   components: {
-    PageHero
+    PageHero, AppNav
   }
 }
 

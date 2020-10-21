@@ -1,8 +1,6 @@
 <template>
   <div>
 
-    <app-nav/>
-
     <nuxt/>
 
     <app-footer />
@@ -12,12 +10,11 @@
 
 <script>
 
-import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    AppNav, AppFooter
+    AppFooter
   }
 }
 </script>
@@ -166,10 +163,27 @@ html {
 }
 
 /*
+  Containers
+*/
+.container {
+  @apply px-6;
+  @screen md {
+    @apply px-12;
+  }
+}
+
+/*
   Narrow containers
 */
 .container.narrow {
   max-width:768px;
+}
+
+/*
+  Object fit
+*/
+.fit-cover {
+  object-fit:cover;
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" :class="'text-'+textColor+' bg-'+bgColor+' hover:bg-'+bgColor+'-700 font-bold py-2 px-4 rounded'">
+  <a :href="url" :target="target" :class="'text-'+textColor+' bg-'+bgColor+' hover:bg-'+bgColor+'-700 inline-block font-bold py-2 px-4 rounded'">
     {{label}}
   </a>
 </template>
@@ -23,6 +23,10 @@
       label: {
         type: String,
         default: ''
+      },
+      target: {
+        type: String,
+        default: '_self'
       }
     }
   }

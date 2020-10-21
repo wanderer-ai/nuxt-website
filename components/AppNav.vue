@@ -1,6 +1,6 @@
 <template>
 
-  <div class="z-50 absolute w-full">
+  <div :class="'text-'+textColor+' z-50 absolute w-full'">
 
     <div class="container pt-4">
 
@@ -26,6 +26,19 @@
   </div>
 
 </template>
+
+<script>
+
+  export default {
+    props: {
+      textColor: {
+        type: String,
+        default: 'white'
+      }
+    }
+  }
+
+</script>
 
 <style>
 

@@ -3,8 +3,8 @@
 
     <div class="absolute h-full w-full bg-cover blur" style="background-image: url('/images/wanderer-builder.png');"></div>
 
-    <div class="absolute h-full w-full blur">
-      <video class="" autoplay muted loop>
+    <div class="absolute h-full w-full blur hidden md:block">
+      <video class="h-full w-full fit-cover" autoplay muted loop>
         <source src="/videos/wanderer-builder.webm" type="video/mp4">
       </video>
     </div>
