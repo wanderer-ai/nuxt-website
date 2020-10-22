@@ -1,7 +1,7 @@
 <template>
 
   <footer>
-    <colored-section color="black">
+    <colored-section :color="color" :textColor="textColor">
       <div class="">
 
         <a class="" href="https://wanderer.ai/">
@@ -45,7 +45,17 @@
   import ColoredSection from '~/components/ColoredSection.vue'
 
   export default {
-    components: { ColoredSection }
+    components: { ColoredSection },
+    props: {
+      color: {
+        type: String,
+        default: 'white'
+      },
+      textColor: {
+        type: String,
+        default: 'black'
+      }
+    }
   }
 </script>
 

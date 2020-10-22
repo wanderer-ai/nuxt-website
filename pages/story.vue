@@ -4,9 +4,7 @@
 
       <app-nav />
 
-      <page-hero color="green" header="Story"></page-hero>
-
-      <div class="separator-top-right seperator-up separator-white"></div>
+      <page-hero :edgeCount="2" :edgeAngle="160" color="green" header="Story"></page-hero>
 
       <img class="author" src="/images/chris.jpg" title="Chris" alt="Christoph Stitz">
 
@@ -75,7 +73,9 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down"></div>
+      <div class="separator-bottom-right seperator-down separator-white"></div>
+
+      <app-footer color="green" textColor="white" />
 
     </div>
 
@@ -85,10 +85,11 @@
 
 import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav
+    PageHero, AppNav, AppFooter
   }
 }
 

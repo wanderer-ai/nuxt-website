@@ -6,8 +6,6 @@
 
       <page-hero color="yellow" header="Pricing"></page-hero>
 
-      <div class="separator-top-right seperator-up separator-white"></div>
-
       <div class="container narrow content">
 
         <p>
@@ -23,7 +21,9 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down"></div>
+      <div class="separator-bottom-right seperator-down separator-white"></div>
+
+      <app-footer color="yellow" textColor="white" />
 
     </div>
 
@@ -33,10 +33,11 @@
 
 import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav
+    PageHero, AppNav, AppFooter
   }
 }
 

@@ -33,7 +33,7 @@
     props: {
       textColor: {
         type: String,
-        default: 'white'
+        default: 'black'
       }
     }
   }

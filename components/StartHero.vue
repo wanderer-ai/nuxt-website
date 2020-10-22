@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen overflow-hidden relative">
+  <div :id="id" class="h-screen overflow-hidden relative">
 
     <div class="absolute h-full w-full bg-cover blur" style="background-image: url('/images/wanderer-builder.png');"></div>
 
@@ -22,9 +22,16 @@
 
 <script>
 
+  export default {
+    props: {
+      id: {
+        type: String,
+        default: ''
+      }
+    }
+  }
 
 </script>
-
 
 <style>
 

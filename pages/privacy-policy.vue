@@ -6,8 +6,6 @@
 
       <page-hero color="blue" header="Privacy Policy"></page-hero>
 
-      <div class="separator-top-right seperator-up separator-white"></div>
-
       <div class="container narrow content">
 
         <h2>1. An overview of data protection</h2>
@@ -106,7 +104,9 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down"></div>
+      <div class="separator-bottom-right seperator-down separator-white"></div>
+
+      <app-footer color="blue" textColor="white" />
 
     </div>
 
@@ -116,10 +116,11 @@
 
 import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav
+    PageHero, AppNav, AppFooter
   }
 }
 

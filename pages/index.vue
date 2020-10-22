@@ -4,12 +4,17 @@
 
       <app-nav textColor="black" />
 
-      <start-hero>
+      <start-hero id="start">
         <h1 class="text-4xl md:text-6xl uppercase">Wanderer.ai</h1>
         <div class="mb-6 text-xl md:text-2xl uppercase">Graph theory driven reactive conversations</div>
+
         <div class="-mx-3">
-          <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/builder" bg-color="red" text-color="white" label="Build your bot now!" />
-          <link-button class="mx-3" url="#welcome" bg-color="green" text-color="white" label="Learn more" />
+          <!-- <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="yellow" text-color="white" label="Wanderer.ai" />
+          <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="blue" text-color="white" label="Graph theory driven" />
+          <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="green" text-color="white" label="Reactive conversations" /> -->
+
+          <link-button :edgeCount="1" :edgeAngle="170" class="mx-3 mb-6 sm:mb-0" target="_blank" url="/builder" bg-color="red" text-color="white" label="Build your bot now!" />
+          <link-button :edgeCount="2" :edgeAngle="50" class="mx-3" url="#welcome" bg-color="green" text-color="white" label="Learn more" />
         </div>
       </start-hero>
 
@@ -17,7 +22,7 @@
 
       <colored-section id="welcome" color="green" header="Hey 👋! This is Wanderer.ai">
         <p class="mb-6">Like a wanderer this software traverses the complex context of expert knowledge to create a unique chat experience.</p>
-        <link-button class="" url="#context-first" bg-color="white" text-color="black" label="Learn more" />
+        <link-button :edgeCount="2" :edgeAngle="110" class="" url="#context-first" bg-color="white" text-color="black" label="Learn more" />
       </colored-section>
 
       <div class="separator-bottom-right seperator-down separator-green"></div>
@@ -27,7 +32,7 @@
           Create non blocking reactive chatbots.
           Like in real conversations this chatbot is able to interrupt a current question because the situative context has changed.
         </p>
-        <link-button class="" url="#privacy-by-design" bg-color="blue" text-color="white" label="Learn more" />
+        <link-button :edgeCount="4" :edgeAngle="30" class="" url="#privacy-by-design" bg-color="blue" text-color="white" label="Learn more" />
       </text-section>
 
       <div class="separator-top-right seperator-up separator-blue"></div>
@@ -37,7 +42,7 @@
           It should never be best practice to send every user input to intransparent server systems. This chatbot will respect privacy!
           It will run completely independent of any servers only at client side.
         </p>
-        <link-button class="mt-6" url="#free-the-knowledge" bg-color="white" text-color="black" label="Learn more" />
+        <link-button :edgeCount="2" :edgeAngle="200" class="mt-6" url="#free-the-knowledge" bg-color="white" text-color="black" label="Learn more" />
       </colored-section>
 
       <div class="separator-bottom-right seperator-down separator-blue"></div>
@@ -47,7 +52,7 @@
           Stop encapsulating expert knowledge in complex and cumbersome program code or server black boxes.
           Knowledge should be easily accessible by all people. Host your chat flows on GitHub for example.
         </p>
-        <link-button class="mt-6" url="#technology" bg-color="yellow" text-color="white" label="Learn more" />
+        <link-button :edgeCount="3" :edgeAngle="70" class="mt-6" url="#technology" bg-color="yellow" text-color="white" label="Learn more" />
       </text-section>
 
       <div class="separator-top-right seperator-up separator-yellow"></div>
@@ -62,7 +67,7 @@
           <a class="underline" target="_blank" href="https://lernajs.io/">Lerna</a>
           and <a class="underline" target="_blank" href="https://mustache.github.io/">Mustache.js.</a>
         </p>
-        <link-button class="mt-6" url="#editor" bg-color="white" text-color="black" label="Learn more" />
+        <link-button :edgeCount="2" :edgeAngle="100" class="mt-6" url="#editor" bg-color="white" text-color="black" label="Learn more" />
       </colored-section>
 
       <div class="separator-bottom-right seperator-down separator-yellow"></div>
@@ -73,8 +78,8 @@
         </p>
         <div class="-mx-3">
 
-          <link-button class="mx-3 mb-6 sm:mb-0" url="#stay-tuned" bg-color="red" text-color="white" label="Learn more" />
-          <link-button class="mx-3" target="_blank" url="/builder" bg-color="green" text-color="white" label="Try it now!" />
+          <link-button :edgeCount="2" :edgeAngle="50" class="mx-3 mb-6 sm:mb-0" url="#stay-tuned" bg-color="red" text-color="white" label="Learn more" />
+          <link-button :edgeCount="1" :edgeAngle="10" class="mx-3" target="_blank" url="/builder" bg-color="green" text-color="white" label="Try it now!" />
         </div>
       </text-section>
 
@@ -87,10 +92,12 @@
           <a class="underline" href="https://steampixel.de/en/tag/lets-build-an-open-source-chatbot-builder/">blog series</a>.
           Also watch the <a class="underline" href="https://github.com/wanderer-ai">git repos</a>.
         </p>
-        <link-button class="mt-6" url="#" bg-color="white" text-color="black" label="Back to top" />
+        <link-button :edgeCount="2" :edgeAngle="200" class="mt-6" url="#start" bg-color="white" text-color="black" label="Back to top" />
       </colored-section>
 
       <div class="separator-bottom-right seperator-down separator-red"></div>
+
+      <app-footer />
 
     </div>
 
@@ -103,10 +110,11 @@ import ColoredSection from '~/components/ColoredSection.vue'
 import TextSection from '~/components/TextSection.vue'
 import LinkButton from '~/components/LinkButton.vue'
 import AppNav from '~/components/AppNav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    StartHero, ColoredSection, TextSection, LinkButton, AppNav
+    StartHero, ColoredSection, TextSection, LinkButton, AppNav, AppFooter
   }
 }
 </script>

@@ -4,9 +4,7 @@
 
       <app-nav />
 
-      <page-hero color="red" header="Frequently asked questions"></page-hero>
-
-      <div class="separator-top-left seperator-up separator-white"></div>
+      <page-hero :edgeCount="2" :edgeAngle="160" color="red" header="Frequently asked questions"></page-hero>
 
       <div class="container narrow content">
 
@@ -144,7 +142,9 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down"></div>
+      <div class="separator-bottom-right seperator-down separator-white"></div>
+
+      <app-footer color="red" textColor="white" />
 
     </div>
 
@@ -154,10 +154,11 @@
 
 import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav
+    PageHero, AppNav, AppFooter
   }
 }
 

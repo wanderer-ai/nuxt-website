@@ -1,20 +1,16 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
 
     <nuxt/>
-
-    <app-footer />
 
   </div>
 </template>
 
 <script>
 
-import AppFooter from '~/components/AppFooter.vue'
-
 export default {
   components: {
-    AppFooter
+
   }
 }
 </script>
@@ -44,7 +40,7 @@ html {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 100px 100vw 0 0;
+  border-width: 50px 100vw 0 0;
   position: relative;
   border-color: transparent white transparent transparent;
   z-index:999;
@@ -54,7 +50,7 @@ html {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 100px 0 0 100vw;
+  border-width: 50px 0 0 100vw;
   position: relative;
   border-color: transparent transparent transparent white;
   z-index:999;
@@ -64,7 +60,7 @@ html {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 100vw 100px 0;
+  border-width: 0 100vw 50px 0;
   position: relative;
   border-color: transparent white transparent transparent;
   z-index:999;
@@ -74,51 +70,51 @@ html {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 100px 100vw;
+  border-width: 0 0 50px 100vw;
   position: relative;
   border-color: transparent transparent transparent white;
   z-index:999;
 }
 
 .seperator-up{
-  margin-top: -100px;
+  margin-top: -50px;
   margin-bottom: 0;
 }
 
 .seperator-down{
   margin-top: 0;
-  margin-bottom: -100px;
+  margin-bottom: -50px;
 }
 
-@media screen and (max-width : 500px){
+@screen md {
 
   .separator-top-right {
-    border-width: 50px 100vw 0 0;
+    border-width: 100px 100vw 0 0;
   }
 
   .separator-top-left {
-    border-width: 50px 0 0 100vw;
+    border-width: 100px 0 0 100vw;
   }
 
   .separator-bottom-right {
-    border-width: 0 100vw 50px 0;
+    border-width: 0 100vw 100px 0;
   }
 
   .separator-bottom-left {
-    border-width: 0 0 50px 100vw;
+    border-width: 0 0 100px 100vw;
   }
 
   .seperator-up{
-    margin-top: -50px;
+    margin-top: -100px;
   }
 
   .seperator-down{
-    margin-bottom: -50px;
+    margin-bottom: -100px;
   }
 
   .seperator-compensate{
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:100px;
+    padding-bottom:100px;
   }
 }
 
