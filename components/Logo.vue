@@ -1,14 +1,22 @@
 <template>
-  <section v-bind:class="'pt-24 pb-12 md:py-24'">
-    <div class="container text-center">
+  <section v-bind:class="">
+    <div class="z-40 container text-center">
 
-      <div class="relative round-header">
-        <div class="round-header--center">
-          <div v-for="n in edgeCount" v-bind:key="n" :class="'round-header--edge border-'+color" :style="'transform: rotate('+(n*edgeAngle)+'deg)'"></div>
+      <div class="relative round-logo">
+
+        <div class="round-logo--center">
+          <div v-for="n in edgeCount" v-bind:key="n" :class="'round-logo--edge border-'+color" :style="'transform: rotate('+(n*edgeAngle)+'deg)'"></div>
         </div>
-        <span :class="'text-4xl round-header--circle bg-'+color+' hover:bg-'+color+'-700 '">
-          <span v-if="header" :class="'round-header--text text-white'">{{header}}</span>
+        
+        <span :class="'text-4xl round-logo--circle bg-'+color+' hover:bg-'+color+'-700 '">
+          <span :class="'round-logo--text text-'+textColor">
+            <h1 v-if="header" class="text-4xl md:text-6xl uppercase">{{header}}</h1>
+            <div v-if="subheader" class="mb-6 text-xl md:text-2xl uppercase">{{subheader}}</div>
+          </span>
         </span>
+
+        <slot/>
+
       </div>
 
     </div>
@@ -23,9 +31,17 @@
         type: String,
         default: ''
       },
+      subheader: {
+        type: String,
+        default: ''
+      },
       color: {
         type: String,
         default: 'green'
+      },
+      textColor: {
+        type: String,
+        default: 'white'
       },
       edgeCount: {
         type: Number,
@@ -43,13 +59,19 @@
 
 <style>
 
-.round-header {
+.round-logo {
   display: inline-block;
   position: relative;
   z-index:999;
 }
 
-.round-header--circle {
+@screen md {
+  .round-logo {
+    margin-top: -50%;
+  }
+}
+
+.round-logo--circle {
   text-decoration: none;
   border-style: none;
   border-radius: 100%;
@@ -60,22 +82,21 @@
   padding:0;
   position: relative;
   padding:3rem;
-  max-width: 300px;
 }
 
-.round-header--circle:before {
+.round-logo--circle:before {
   content:'';
   display:inline-block;;
   vertical-align:middle;
   padding-top:100%;
 }
-.round-header--text {
+.round-logo--text {
   display:inline-block;
   position:relative;
   vertical-align:middle;
 }
 
-.round-header--center {
+.round-logo--center {
   height:0;
   width:0;
   position:absolute;
@@ -84,7 +105,7 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
-.round-header--edge {
+.round-logo--edge {
   position:relative;
   /* opacity:0; */
   transition: all 0.3s ease-in-out;

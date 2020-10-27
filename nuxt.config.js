@@ -55,6 +55,9 @@ module.exports = {
     '@nuxtjs/tailwindcss'
   ],
   purgeCSS: {
-    whitelist: ['bg-red', 'bg-green', 'bg-yellow', 'bg-blue', 'bg-grey', 'bg-black'],
+    whitelist: [
+      'bg-red', 'bg-green', 'bg-yellow', 'bg-blue', 'bg-grey', 'bg-black',
+      'border-red', 'border-green', 'border-yellow', 'border-blue', 'border-grey', 'border-black'
+    ],
   },
 }

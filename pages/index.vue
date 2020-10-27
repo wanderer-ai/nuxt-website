@@ -5,17 +5,20 @@
       <app-nav textColor="black" />
 
       <start-hero id="start">
-        <h1 class="text-4xl md:text-6xl uppercase">Wanderer.ai</h1>
-        <div class="mb-6 text-xl md:text-2xl uppercase">Graph theory driven reactive conversations</div>
 
-        <div class="-mx-3">
-          <!-- <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="yellow" text-color="white" label="Wanderer.ai" />
-          <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="blue" text-color="white" label="Graph theory driven" />
-          <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="green" text-color="white" label="Reactive conversations" /> -->
+        <logo :edgeCount="3" :edgeAngle="190" color="yellow" text-color="white" header="Wanderer.ai" subheader="Privacy by design reactive chatbot">
 
-          <link-button :edgeCount="1" :edgeAngle="170" class="mx-3 mb-6 sm:mb-0" target="_blank" url="/builder" bg-color="red" text-color="white" label="Build your bot now!" />
-          <link-button :edgeCount="2" :edgeAngle="50" class="mx-3" url="#welcome" bg-color="green" text-color="white" label="Learn more" />
-        </div>
+          <div class="w-full absolute bottom-0 -mx-3 hidden sm:block">
+            <!-- <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="yellow" text-color="white" label="Wanderer.ai" />
+            <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="blue" text-color="white" label="Graph theory driven" />
+            <link-button class="mx-3 mb-6 sm:mb-0" target="_blank" url="/" bg-color="green" text-color="white" label="Reactive conversations" /> -->
+
+            <link-button :edgeCount="1" :edgeAngle="170" class="mx-3 mb-6 sm:mb-0" target="_blank" url="https://wanderer.ai/builder" bg-color="blue" text-color="white" label="Build your bot now!" />
+            <link-button :edgeCount="2" :edgeAngle="50" class="mx-3" url="#welcome" bg-color="green" text-color="white" label="Learn more" />
+          </div>
+
+        </logo>
+
       </start-hero>
 
       <div class="separator-top-right seperator-up separator-green"></div>
@@ -50,7 +53,7 @@
       <text-section id="free-the-knowledge" image="/images/graph7.JPG" header="📖 Free the knowledge!">
         <p class="mb-6">
           Stop encapsulating expert knowledge in complex and cumbersome program code or server black boxes.
-          Knowledge should be easily accessible by all people. Host your chat flows on GitHub for example.
+          Knowledge should be easily accessible by all people. Host and share your chat flows on GitHub for example.
         </p>
         <link-button :edgeCount="3" :edgeAngle="70" class="mt-6" url="#technology" bg-color="yellow" text-color="white" label="Learn more" />
       </text-section>
@@ -77,9 +80,8 @@
           Create your chatbot within a simple, free and powerful editor. No need for registrations or payments to build your bot.
         </p>
         <div class="-mx-3">
-
           <link-button :edgeCount="2" :edgeAngle="50" class="mx-3 mb-6 sm:mb-0" url="#stay-tuned" bg-color="red" text-color="white" label="Learn more" />
-          <link-button :edgeCount="1" :edgeAngle="10" class="mx-3" target="_blank" url="/builder" bg-color="green" text-color="white" label="Try it now!" />
+          <link-button :edgeCount="1" :edgeAngle="10" class="mx-3" target="_blank" url="https://wanderer.ai/builder" bg-color="blue" text-color="white" label="Try it now!" />
         </div>
       </text-section>
 
@@ -111,10 +113,11 @@ import TextSection from '~/components/TextSection.vue'
 import LinkButton from '~/components/LinkButton.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
+import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    StartHero, ColoredSection, TextSection, LinkButton, AppNav, AppFooter
+    StartHero, ColoredSection, TextSection, LinkButton, AppNav, AppFooter, Logo
   }
 }
 </script>

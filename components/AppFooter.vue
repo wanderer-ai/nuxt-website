@@ -34,6 +34,10 @@
 
         <a href="/privacy-policy">Privacy Policy</a>
 
+        <br>
+
+        <a href="/license">License</a>
+
       </div>
     </colored-section>
   </footer>

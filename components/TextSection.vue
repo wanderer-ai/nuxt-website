@@ -2,7 +2,12 @@
 
   <!-- v-bind:style="'background-image: url('+image+');'" -->
 
-  <section :id="id" class="text-section overflow-hidden bg-white bg-h-full bg-no-repeat bg-left" >
+  <section :id="id" class="text-section overflow-hidden">
+
+    <div class="absolute h-full w-full bg-cover blur" style="background-image: url('/images/wanderer-builder.png');"></div>
+
+    <div class="absolute h-full w-full bg-white opacity-75"></div>
+
     <div class="py-48">
       <div class="container">
         <div class="flex flex-wrap justify-center lg:justify-start">
@@ -48,9 +53,9 @@
 
 <style>
 
-.bg-h-full {
+/* .bg-h-full {
   background-size: auto 100%;
-}
+} */
 
 .text-section {
   position: relative;

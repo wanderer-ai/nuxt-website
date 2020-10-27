@@ -150,6 +150,10 @@ html {
   @apply mb-2 uppercase text-4xl;
 }
 
+.content h3 {
+  @apply mb-2 uppercase text-2xl;
+}
+
 .content ul {
   @apply mb-6 text-xl;
 }

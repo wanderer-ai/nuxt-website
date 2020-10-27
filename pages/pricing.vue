@@ -21,6 +21,12 @@
 
       </div>
 
+      <div class="container">
+        
+        <plans />
+
+      </div>
+
       <div class="separator-bottom-right seperator-down separator-white"></div>
 
       <app-footer color="yellow" textColor="white" />
@@ -34,10 +40,11 @@
 import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
+import Plans from '~/components/Plans.vue'
 
 export default {
   components: {
-    PageHero, AppNav, AppFooter
+    PageHero, AppNav, AppFooter, Plans
   }
 }
 
