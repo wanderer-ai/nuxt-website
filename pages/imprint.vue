@@ -4,9 +4,11 @@
 
       <app-nav />
 
-      <page-hero color="blue" header="Imprint"></page-hero>
+      <header-section colorFrom="blue-dark" colorTo="blue">
+        <h1 class="uppercase text-6xl text-white mb-4">Imprint</h1>
+      </header-section>
 
-      <div class="container narrow content">
+      <div class="container narrow content py-24">
 
         <h2>Information provided according to Sec. 5 German Telemedia Act (TMG):</h2>
         <p>Christoph Stitz<br>
@@ -58,9 +60,7 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down separator-white"></div>
-
-      <app-footer color="blue" textColor="white" />
+      <app-footer colorFrom="blue-dark" colorTo="blue" />
 
     </div>
 
@@ -68,13 +68,14 @@
 
 <script>
 
-import PageHero from '~/components/PageHero.vue'
+// import PageHero from '~/components/PageHero.vue'
+import HeaderSection from '~/components/HeaderSection.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav, AppFooter
+    AppNav, AppFooter, HeaderSection
   }
 }
 

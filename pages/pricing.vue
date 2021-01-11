@@ -4,7 +4,7 @@
 
       <app-nav />
 
-      <page-hero color="yellow" header="Pricing"></page-hero>
+      <!-- <page-hero color="yellow" header="Pricing"></page-hero> -->
 
       <div class="container narrow content">
 
@@ -22,7 +22,7 @@
       </div>
 
       <div class="container">
-        
+
         <plans />
 
       </div>
@@ -37,14 +37,14 @@
 
 <script>
 
-import PageHero from '~/components/PageHero.vue'
+// import PageHero from '~/components/PageHero.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 import Plans from '~/components/Plans.vue'
 
 export default {
   components: {
-    PageHero, AppNav, AppFooter, Plans
+    AppNav, AppFooter, Plans
   }
 }
 

@@ -4,9 +4,11 @@
 
       <app-nav />
 
-      <page-hero :edgeCount="2" :edgeAngle="160" color="red" header="Frequently asked questions"></page-hero>
+      <header-section colorFrom="blue-dark" colorTo="blue">
+        <h1 class="uppercase text-6xl text-white mb-4">Frequently asked questions</h1>
+      </header-section>
 
-      <div class="container narrow content">
+      <div class="container narrow content py-24">
 
         <h2>What is the current status of the project?</h2>
         <p>
@@ -16,8 +18,6 @@
 
         <h2>The chatbot is reactive and non blocking. What does that mean?</h2>
         <p>
-          That means that the program will generate a pulsing traversal structure :-) Ok. That sounds very nerdy.
-          So let me explain:
           Thanks to this kind of technology the graph don't have to wait for user input to generate new conclusions.
           Imagine the following situation: The bot can hand over a question with a few suggestions to the chat.
           Then the bot will wait for user input. But while it waits for user input the context and the situation can change.
@@ -142,9 +142,7 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down separator-white"></div>
-
-      <app-footer color="red" textColor="white" />
+      <app-footer colorFrom="blue-dark" colorTo="blue" />
 
     </div>
 
@@ -152,13 +150,14 @@
 
 <script>
 
-import PageHero from '~/components/PageHero.vue'
+// import PageHero from '~/components/PageHero.vue'
+import HeaderSection from '~/components/HeaderSection.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav, AppFooter
+    AppNav, AppFooter, HeaderSection
   }
 }
 

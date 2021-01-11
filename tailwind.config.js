@@ -9,10 +9,12 @@ module.exports = {
       black: '#000',
       white: '#fff',
       grey: '#ccc',
-      blue: '#007AFF',
-      green: '#27A844',
-      yellow: '#FEC106',
-      red: '#E03347'
+      blue: '#007AFF', 'blue-dark': '#005dc2',
+      green: '#27A844', 'green-light': '#58ed7a',
+
+      yellow: '#FEC106', orange: '#ff9d2f',
+
+      red: '#E03347', 'red-dark': '#b01224',
     },
     borderRadius: {
       'none': '0',

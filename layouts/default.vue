@@ -24,14 +24,14 @@ html {
 /*
   Blur
 */
-.blur {
+/* .blur {
   filter: blur(4px);
-}
+} */
 
 /*
   Seperators
 */
-.separator-wrapper{
+/* .separator-wrapper{
   overflow: hidden;
   width: 100%;
 }
@@ -137,7 +137,7 @@ html {
 .separator-bottom-left.separator-blue{ border-color: transparent transparent transparent #007AFF; }
 .separator-bottom-left.separator-yellow{ border-color: transparent transparent transparent #FEC106 ; }
 .separator-bottom-left.separator-red{ border-color: transparent transparent transparent #E03347; }
-.separator-bottom-left.separator-white{ border-color: transparent transparent transparent #fff; }
+.separator-bottom-left.separator-white{ border-color: transparent transparent transparent #fff; } */
 
 /*
   HTML Content
@@ -182,8 +182,8 @@ html {
 /*
   Object fit
 */
-.fit-cover {
+/* .fit-cover {
   object-fit:cover;
-}
+} */
 
 </style>

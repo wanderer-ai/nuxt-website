@@ -1,38 +1,50 @@
 <template>
-  <section :id="id" :class="'colored-section overflow-hidden bg-'+color+' py-12 md:py-24 lg:py-48'">
-    <div class="container">
-      <div class="flex flex-wrap justify-center lg:justify-end">
-        <div :class="'w-full lg:w-1/2 text-'+textColor">
-          <h2 v-if="header" class="text-4xl uppercase">{{header}}</h2>
-          <div class="text-xl">
+  <section :id="id" class="colored-section relative">
+
+    <vertex :edgeAngle="70" :edgeCount="2" :edgeLength="800" :size="150" :color="colorFrom" class="z-10" style="top:-200px;left:300px;"/>
+
+    <div :class="'colored-section--clip z-20 relative py-24 bg-gradient-to-br from-'+colorFrom+' to-'+colorTo">
+
+      <div class="container">
+        <div class="flex flex-wrap">
+
+          <div :class="'w-full xl:w-1/2 '">
             <slot></slot>
           </div>
+
+          <div :class="'w-full xl:w-1/2 hidden xl:block'">
+            <vertex :edgeAngle="70" :edgeCount="3" :edgeLength="300" color="white" style="bottom:300px;right:100px;"/>
+          </div>
+
         </div>
       </div>
+
     </div>
+
   </section>
 </template>
 
 <script>
 
+  import Vertex from '~/components/Vertex.vue'
+
   export default {
+    components: {
+      Vertex
+    },
     props: {
-      header: {
-        type: String,
-        default: ''
-      },
-      color: {
-        type: String,
-        default: 'green'
-      },
-      textColor: {
-        type: String,
-        default: 'white'
-      },
       id: {
         type: String,
         default: ''
       },
+      colorFrom: {
+        type: String,
+        default: 'orange'
+      },
+      colorTo: {
+        type: String,
+        default: 'yellow'
+      }
     }
   }
 
@@ -41,12 +53,9 @@
 
 <style>
 
-.colored-section {
-  position: relative;
-  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(48,48,48,1);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(48,48,48,1);
-  box-shadow: 0px 0px 10px 0px rgba(48,48,48,1); */
-  z-index: 10;
+.colored-section--clip {
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
 }
 
 </style>

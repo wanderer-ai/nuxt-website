@@ -18,7 +18,6 @@
                     <li>✅ <strong>Download</strong> your bots</li>
                   </ul>
                 </div>
-                <link-button :edgeCount="2" :edgeAngle="110" class="mt-6" url="https://wanderer.ai/builder/" bg-color="red" text-color="white" label="Build now" />
               </div>
             </div>
           </div>
@@ -69,11 +68,10 @@
 
 <script>
 
-  import LinkButton from '~/components/LinkButton.vue'
 
   export default {
     components: {
-      LinkButton
+
     }
   }
 

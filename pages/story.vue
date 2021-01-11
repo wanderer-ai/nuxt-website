@@ -4,14 +4,14 @@
 
       <app-nav />
 
-      <page-hero :edgeCount="2" :edgeAngle="160" color="green" header="Story"></page-hero>
+      <header-section colorFrom="blue-dark" colorTo="blue">
+        <h1 class="uppercase text-6xl text-white mb-4">Story</h1>
+      </header-section>
 
-      <img class="author" src="/images/chris.jpg" title="Chris" alt="Christoph Stitz">
-
-      <div class="container narrow content">
+      <div class="container narrow content py-24">
 
         <p>
-          Hey! My name is Chris. I am developer, coder and enthusiastic web freelancer from Würzburg, Germany.
+          Hey! My name is Chris. I am developer, coder and enthusiastic web freelancer from Germany.
           I am also the maintainer and developer of Wanderer.ai.
         </p>
 
@@ -73,9 +73,7 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down separator-white"></div>
-
-      <app-footer color="green" textColor="white" />
+      <app-footer colorFrom="blue-dark" colorTo="blue" />
 
     </div>
 
@@ -83,13 +81,14 @@
 
 <script>
 
-import PageHero from '~/components/PageHero.vue'
+// import PageHero from '~/components/PageHero.vue'
+import HeaderSection from '~/components/HeaderSection.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    PageHero, AppNav, AppFooter
+    AppNav, AppFooter, HeaderSection
   }
 }
 
@@ -97,13 +96,13 @@ export default {
 
 <style>
 
-  .author{
+  /* .author{
     border-radius: 50px;
     margin: auto;
     display: block;
     margin-bottom: 50px;
     position: relative;
     z-index: 9999;
-  }
+  } */
 
 </style>
