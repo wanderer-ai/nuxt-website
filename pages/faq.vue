@@ -4,7 +4,7 @@
 
       <app-nav />
 
-      <header-section colorFrom="blue-dark" colorTo="blue">
+      <header-section colorFrom="red-dark" colorTo="red">
         <h1 class="uppercase text-6xl text-white mb-4">Frequently asked questions</h1>
       </header-section>
 
@@ -63,7 +63,7 @@
 
         <h2>Under which license will the software be available?</h2>
         <p>
-          For the moment this is commercial software.
+          For the moment this is commercial software. I wish I could put the software under a common open source license, but too much time and effort went into it.
           That means that you have to purchase a license if you plan to run the bot builder or single chatbots on your own website
           Use the bot builder and the chatbots for free as long as you use them with the Wanderer.ai domain.
           But the detailed terms are not very clear right now.
@@ -101,12 +101,12 @@
           This project uses logic-less templates powered by Mustache.js. That means that you can output data to your messages.
           But logic is not supported inside messages itself. You cannot declare variables or call functions from inside templates.
           The reason is, that the logic should be depicted through the graph structure and not inside hidden and cumbersome templates.
-          This is part of the strict design pattern of Wanderer.ai
+          This is part of the strict design pattern of Wanderer.ai. It would also be a major security hole.
         </p>
 
         <h2>Can I run the chatbots server side?</h2>
         <p>
-          No. At the moment this is not supported. This will be supported in the future.
+          No. At the moment this is not supported. This will maybe supported in the future.
         </p>
 
         <h2>Can a bot communicate with third-party APIs?</h2>
@@ -123,8 +123,8 @@
 
         <h2>Can I integrate third-party chat channels like WhatsApp or Facebook?</h2>
         <p>
-          No. Since Wanderer.ai currently only runs in front end, the connection to other chat channels is technically not possible at the moment.
-          If the project and the technology are successful, I will think about a server variant. But for the moment this is a brwoser only solution.
+          No. Since Wanderer.ai currently only runs in the browser front end, the connection to other chat channels is technically not possible at the moment.
+          If the project and the technology are successful, I will think about a server variant. But for the moment this is a browser only solution.
         </p>
 
         <h2>Can I improve the flow based on statistics?</h2>
@@ -142,7 +142,7 @@
 
       </div>
 
-      <app-footer colorFrom="blue-dark" colorTo="blue" />
+      <app-footer colorFrom="red-dark" colorTo="red" />
 
     </div>
 

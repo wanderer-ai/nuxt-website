@@ -4,7 +4,7 @@
 
       <app-nav />
 
-      <header-section colorFrom="blue-dark" colorTo="blue">
+      <header-section colorFrom="blue" colorTo="blue-dark">
         <h1 class="uppercase text-6xl text-white mb-4">Story</h1>
       </header-section>
 
@@ -14,6 +14,8 @@
           Hey! My name is Chris. I am developer, coder and enthusiastic web freelancer from Germany.
           I am also the maintainer and developer of Wanderer.ai.
         </p>
+
+        <h2 id="technology">The beginning</h2>
 
         <p>
           A while ago me and a friend of mine where spending much time in a software as a service project.
@@ -47,33 +49,12 @@
         </p>
 
         <p>
-          A logic graph has the possibility to drive very complex context dependent applications. In fact this is some kind of an AI technology.
-          It's definitely an expert system but it has some advantages over traditional expert systems:
+          A logic graph has the possibility to drive very complex context dependent applications like Wanderer.ai.
         </p>
-
-        <ul>
-          <li>There is no difference between programm code and data</li>
-          <li>It can be stored directly in a graph database without abstraction</li>
-          <li>It can be executed directly by simply traversing the structure</li>
-          <li>It's very flexible, able to learn and can be maintained easily</li>
-        </ul>
-
-        <h2 id="the-goal">The goal</h2>
-
-        <p>As you've already suspected, the goals of this project are manifold:</p>
-
-        <ul>
-          <li>Make it easier to build and maintain chatbots</li>
-          <li>Make it easier to integrate chatbots with existing projects</li>
-          <li>Research what exactly a logic graph is and how it can enrich AI development</li>
-          <li>Research how logical expert systems like logic graphs can be combined with neuronal networks and deep learning</li>
-          <li>Research how chatbots and AI-Systems can work without permanent server connections to create more confidence</li>
-          <li>Free the knowledge of chatbots that is often encapsulated inside intransparent server systems</li>
-        </ul>
 
       </div>
 
-      <app-footer colorFrom="blue-dark" colorTo="blue" />
+      <app-footer colorFrom="blue" colorTo="blue-dark" />
 
     </div>
 

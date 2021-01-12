@@ -1,6 +1,6 @@
 <template>
 
-  <div :class="'text-'+textColor+''">
+  <div :class="'relative z-30 bg-white text-'+textColor+''">
 
     <div class="container py-4">
 
@@ -15,7 +15,7 @@
         <div class="flex justify-between">
           <a class="pl-4" href="/builder">Builder</a>
           <a class="pl-4" href="/story">Story</a>
-          <!-- <a class="pl-4" href="/pricing">Pricing</a> -->
+          <a class="pl-4" href="/pricing">Pricing</a>
           <a class="pl-4" href="/faq">FAQ</a>
           <!-- <a class="pl-4" href="/imprint">Imprint</a> -->
         </div>

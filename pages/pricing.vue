@@ -4,9 +4,11 @@
 
       <app-nav />
 
-      <!-- <page-hero color="yellow" header="Pricing"></page-hero> -->
+      <header-section colorFrom="green" colorTo="green-light">
+        <h1 class="uppercase text-6xl text-white mb-4">Pricing</h1>
+      </header-section>
 
-      <div class="container narrow content">
+      <div class="container narrow content py-24">
 
         <p>
           This software is open source but it is not completely free.
@@ -27,9 +29,7 @@
 
       </div>
 
-      <div class="separator-bottom-right seperator-down separator-white"></div>
-
-      <app-footer color="yellow" textColor="white" />
+      <app-footer colorFrom="green" colorTo="green-light" />
 
     </div>
 
@@ -37,14 +37,14 @@
 
 <script>
 
-// import PageHero from '~/components/PageHero.vue'
+import HeaderSection from '~/components/HeaderSection.vue'
 import AppNav from '~/components/AppNav.vue'
 import AppFooter from '~/components/AppFooter.vue'
 import Plans from '~/components/Plans.vue'
 
 export default {
   components: {
-    AppNav, AppFooter, Plans
+    AppNav, AppFooter, Plans, HeaderSection
   }
 }
 
