@@ -55,10 +55,10 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url('/images/background.png');
+  /* background-image: url('/images/background.png');
   background-size: cover;
   background-position: center center;
-  filter: blur(0.5rem) opacity(10%);
+  filter: blur(0.5rem) opacity(10%); */
 }
 
 </style>

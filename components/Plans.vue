@@ -9,31 +9,33 @@
 
         <div class="-px-3 flex flex-wrap justify-center lg:justify-start items-stretch">
 
-          <div class="px-3 w-full lg:w-1/2">
-            <div class="px-8 lg:px-12 bg-gradient-to-br from-green to-green-light h-full text-white py-48">
+          <div class="px-3 w-full lg:w-1/2 text-center">
+            <div class="px-8 lg:px-12 bg-gradient-to-br from-green-dark to-green h-full text-white py-48">
               <h2 class="uppercase text-4xl pb-4"><icon name="heart" scale="2"></icon> Free Forever</h2>
               <div class="text-lg">
-                <ul>
+                <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Download</strong> your bots</li>
                 </ul>
+                <page-button bgColor="white" textColor="black" href="/builder">Start building</page-button>
               </div>
             </div>
           </div>
 
-          <div class="px-3 w-full lg:w-1/2">
+          <div class="px-3 w-full lg:w-1/2 text-center">
             <div class="px-8 lg:px-12 bg-gradient-to-br from-orange to-yellow h-full text-white py-48">
               <h2 class="uppercase text-4xl pb-4"><icon name="crown" scale="2"></icon> Professional</h2>
               <div class="text-lg">
-                <ul>
+                <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Download</strong> your bots</li>
                   <li><icon name="check" scale="1"></icon> <strong>Website and App</strong> integration</li>
                 </ul>
+                <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>
             </div>
           </div>
@@ -71,10 +73,11 @@ import Icon from '~/node_modules/vue-awesome/components/Icon'
 import '~/node_modules/vue-awesome/icons/check'
 import '~/node_modules/vue-awesome/icons/heart'
 import '~/node_modules/vue-awesome/icons/crown'
+import PageButton from '~/components/Button.vue'
 
 export default {
   components: {
-    Icon, Vertex
+    Icon, Vertex, PageButton
   }
 }
 

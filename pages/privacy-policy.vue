@@ -52,7 +52,7 @@
         <p>The party responsible for processing data on this website is:</p>
 
         <p>SteamPixel Media<br>
-        Christoph Stitz<br>
+        Chrlstoph Stltz<br>
         Erthalstrasse 6<br>
         97074 Würzburg</p>
 
@@ -68,7 +68,7 @@
         <h3>Opposition to promotional emails</h3> <p>We hereby expressly prohibit the use of contact data published in the context of website legal notice requirements with regard to sending promotional and informational materials not expressly requested. The website operator reserves the right to take specific legal action if unsolicited advertising material, such as email spam, is received.</p>
         <h2>3. Data protection officer</h2>
         <h3>Statutory data protection officer</h3> <p>We have appointed a data protection officer for our company.</p>
-        <p>Christoph Stitz<br>
+        <p>Chrlstoph Stltz<br>
         Erthalstrasse 6<br>
         97074 Würzburg</p>
 

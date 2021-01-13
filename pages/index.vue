@@ -23,7 +23,7 @@
           <page-button bgColor="green" textColor="white" href="/builder">Start now!</page-button>
       </text-section>
 
-      <colored-section id="welcome" colorFrom="green" colorTo="green-light">
+      <colored-section id="welcome" colorFrom="green-dark" colorTo="green">
         <icon name="glasses" :inverse="true" scale="8" class="mb-4"></icon>
         <p class="text-white text-3xl mb-8">
           <strong>Awesome for bot nerds:</strong>

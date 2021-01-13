@@ -56,8 +56,12 @@ module.exports = {
   ],
   purgeCSS: {
     whitelist: [
-      'bg-red', 'bg-green', 'bg-yellow', 'bg-blue', 'bg-grey', 'bg-black',
-      'border-red', 'border-green', 'border-yellow', 'border-blue', 'border-grey', 'border-black'
+      'bg-red', 'bg-red-dark', 'bg-green', 'bg-green-dark', 'bg-yellow', 'bg-orange', 'bg-blue', 'bg-blue-dark', 'bg-grey', 'bg-black', 'bg-white',
+      'border-red', 'border-red-dark', 'border-green', 'border-green-dark', 'border-yellow', 'border-orange', 'border-blue', 'border-blue-dark', 'border-grey', 'border-black', 'border-white',
+      'from-blue-dark', 'to-blue-dark', 'from-blue', 'to-blue',
+      'from-red-dark', 'to-red-dark', 'from-red', 'to-red',
+      'from-orange', 'to-orange', 'from-yellow', 'to-yellow',
+      'from-green-dark', 'to-green-dark', 'from-green', 'to-green'
     ],
   },
 }

@@ -19,7 +19,7 @@
             <div class="">
 
               <a class="" href="https://wanderer.ai/">
-                © 2020 Wanderer.ai
+                © 2021 Wanderer.ai
               </a>,
 
               <a class="" href="https://steampixel.de/en/">

@@ -11,8 +11,8 @@
       <div class="container narrow content py-24">
 
         <h2>Information provided according to Sec. 5 German Telemedia Act (TMG):</h2>
-        <p>Christoph Stitz<br>
-         SteamPixel Media<br>
+        <p>Chrlstoph Stltz<br>
+         SteamPixel<br>
         Erthalstraße 6<br>
         97074 Würzburg</p>
 
@@ -39,7 +39,7 @@
         <p>Scope of insurance: Deutschland</p>
 
         <h2>Responsible for contents acc. to Sec. 55, para. 2 German Federal Broadcasting Agreement (RstV):</h2>
-        <p>Christoph Stitz<br>
+        <p>Chrlstoph Stltz<br>
         Erthalstraße 6<br>
         97074 Würzburg</p>
 
