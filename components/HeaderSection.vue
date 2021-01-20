@@ -20,7 +20,7 @@
     </div>
 
     <div class="hidden lg:block">
-      <vertex :color="colorFrom" :edgeCount="3" :edgeAngle="100" :size="100" class="z-10" style="bottom:-200px;left:100px;"/>
+      <vertex :color="colorTo" :edgeCount="3" :edgeAngle="100" :size="100" class="z-10" style="bottom:-200px;left:100px;"/>
     </div>
 
   </header>

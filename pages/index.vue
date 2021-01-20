@@ -10,7 +10,7 @@
           Build your bots <strong>without registering or payments</strong>. Run your bots <strong>server independent</strong> only at client side and without internet connection.
           <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.
         </p>
-        <page-button href="/builder">Build your bot now</page-button>
+        <page-button href="https://wanderer.ai/bilder">Build your bot now</page-button>
       </header-section>
 
       <text-section>
@@ -20,7 +20,7 @@
             Create your chatbot within a simple, <strong>free and powerful flow builder</strong>. No need for registrations or payments to start.
             Its easy!
           </p>
-          <page-button bgColor="green" textColor="white" href="/builder">Start now!</page-button>
+          <page-button bgColor="green" textColor="white" href="https://wanderer.ai/bilder">Start now!</page-button>
       </text-section>
 
       <colored-section id="welcome" colorFrom="green-dark" colorTo="green">
@@ -30,7 +30,7 @@
           This bot traverses complex contexts of logic and knowledge. This leads to non blocking chatbots.
           Like in real conversations this bot is able to interrupt a current question because the <strong>situative context</strong> has changed.
         </p>
-        <page-button bgColor="white" textColor="black" href="/builder">Try it now!</page-button>
+        <page-button bgColor="white" textColor="black" href="https://wanderer.ai/bilder">Try it now!</page-button>
       </colored-section>
 
       <text-section>
@@ -40,7 +40,7 @@
             It should never be best practice to send every user input to intransparent server systems. This chatbot will <strong>respect privacy</strong>!
             It will run completely <strong>independent of any servers</strong> only at client side.
           </p>
-          <page-button bgColor="blue" textColor="white" href="/builder">Start now!</page-button>
+          <page-button bgColor="blue" textColor="white" href="https://wanderer.ai/bilder">Start now!</page-button>
       </text-section>
 
       <colored-section id="welcome" colorFrom="blue-dark" colorTo="blue">
@@ -49,7 +49,7 @@
           <strong>Always your data: </strong>Stop encapsulating expert knowledge in complex and cumbersome program code or server black boxes.
           Knowledge should be <strong>easily accessible</strong> by all people. Host and share your chat flows <strong>wherever you like</strong>.
         </p>
-        <page-button bgColor="white" textColor="black" href="/builder">Try it now!</page-button>
+        <page-button bgColor="white" textColor="black" href="https://wanderer.ai/bilder">Try it now!</page-button>
       </colored-section>
 
       <text-section>
