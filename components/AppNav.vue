@@ -19,6 +19,7 @@
           <a class="pl-4" href="/story">Story</a>
           <a class="pl-4" href="/pricing">Pricing</a>
           <a class="pl-4" href="/faq">FAQ</a>
+          <a class="pl-4" href="/roadmap">Roadmap</a>
           <a class="pl-4" href="https://wanderer.ai/docs">Docs</a>
           <!-- <a class="pl-4" href="/imprint">Imprint</a> -->
         </div>

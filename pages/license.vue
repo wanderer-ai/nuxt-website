@@ -14,7 +14,7 @@
 
         <p>
           The Wanderer.ai source code is publicly available but this is not free software.
-          To use Wanderer.ai on a public server or inside your Apps, you need to purchase a license.
+          To use Wanderer.ai products on a public server or inside your Apps, you need to purchase a license.
           This End User License Agreement (the "Agreement") is fundamental to the relationship between you and us.
           Therefore we recommend to read this Agreement carefully before you download, install or use Wanderer.ai.
         </p>
@@ -28,7 +28,7 @@
 
         <h3>Domain</h3>
         <p>
-          A domain is a name registered inside the Domain Name System (DNS). A subdomain acts as a separate domain for this agreement.
+          A domain is a name registered inside the Domain Name System (DNS). Any kind of a subdomain acts as a separate domain for this agreement.
         </p>
 
         <h3>Public Website</h3>
@@ -42,14 +42,19 @@
           and that is accessible to the general public. That includes not only classical smartphone Apps but also digital signage computer systems too.
         </p>
 
+        <h3>Development machine</h3>
+        <p>
+          A development environment or development machine can only be used by a few people and is not publicly visible.
+        </p>
+
         <h3>Wanderer.ai Chat</h3>
         <p>
-
+          The chat only includes the chat component, which can be integrated on websites. The chat is essentially defined by this package: https://github.com/wanderer-ai/wanderer/tree/master/packages/wanderer-chat-browser
         </p>
 
         <h3>Wanderer.ai Builder</h3>
         <p>
-
+          The builder is the software that can be used to build chatbot flows. This is essentially defined by this package: https://github.com/wanderer-ai/wanderer/tree/master/packages/wanderer-builder-browser
         </p>
 
         <h2>Usage for a public website or public App</h2>
@@ -75,18 +80,18 @@
 
         <h2>Order process</h2>
         <p>
-          To be defined.
+          The ordering process is completely handled by our partner Paddle.
         </p>
 
         <h2>Free licenses</h2>
         <p>
-          Wanderer.ai can be used for free in the following cases.
+          Wanderer.ai can be used for free in the following cases:
         </p>
 
         <h3>Use it directly from the Wanderer.ai Domain</h3>
         <p>
-          You can use Wanderer.ai completely for free by using the Software directly from the Wanderer.ai domain.
-          Attention! This is only valid if Wanderer.ai is used directly! If you want to integrate Wanderer.ai through frames, iframes or via CDN, you need a paid license.
+          You can use Wanderer.ai completely for free by using the Software directly from the Wanderer.ai domain. So you can use the chat and the builder for free.
+          Attention! This is only valid if the Wanderer.ai domain is used directly! If you want to integrate Wanderer.ai through frames, iframes or via CDN, you need a paid license.
         </p>
 
         <h3>Usage on a development machine</h3>
@@ -150,14 +155,20 @@
           We also reserve the right to determine whether Your use of Wanderer.ai qualifies under this Agreement.
         </p>
 
-        <h2>Contribution</h2>
-        <p>To be defined</p>
-
         <h2>Technical Support</h2>
-        <p>To be defined</p>
+        <p>
+          Technical support is limited to the integration of the bot in websites or existing applications.
+
+          We do not guarantee support for created chat flows, as these can sometimes be very complex.
+          In this case, contact us so that we can make a support offer.
+
+          We reserve the right to limit technical support for free licenses.
+        </p>
 
         <h2>Refund Policy</h2>
-        <p>To be defined</p>
+        <p>
+          We offer a 14-day, money back refund policy if Wanderer didn't work out for Your project.
+        </p>
 
         <h2>No Warranty</h2>
         <p>
@@ -187,6 +198,7 @@
           relating to, or resulting from your use of Wanderer.ai or any other matter relating to Wanderer.ai.
           This paragraph also applies to you if you are not the licensee (e.g. if you use Wanderer.ai while someone else is the licensee).
         </p>
+
         <h2>Limitation of Liability</h2>
         <p>
           YOU EXPRESSLY UNDERSTAND AND AGREE THAT WE SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES,
@@ -204,6 +216,9 @@
         </p>
 
         <h2>Questions?</h2>
+        <p>
+          Contact us at any time if you have any questions using hello@wanderer.ai.
+        </p>
 
 
       </div>

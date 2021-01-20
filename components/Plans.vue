@@ -20,7 +20,7 @@
                   <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Download and share</strong> your bots</li>
                 </ul>
-                <page-button bgColor="white" textColor="black" href="https://wanderer.ai/bilder">Start building</page-button>
+                <page-button bgColor="white" textColor="black" href="https://wanderer.ai/builder">Start building</page-button>
               </div>
             </div>
           </div>
