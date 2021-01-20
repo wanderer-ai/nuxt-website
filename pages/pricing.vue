@@ -4,7 +4,7 @@
 
       <app-nav />
 
-      <header-section colorFrom="green-dark" colorTo="green">
+      <header-section colorFrom="orange" colorTo="yellow">
         <h1 class="uppercase text-6xl text-white mb-4">Pricing</h1>
       </header-section>
 
@@ -29,7 +29,7 @@
 
       </div>
 
-      <app-footer colorFrom="green-dark" colorTo="green" />
+      <app-footer colorFrom="orange" colorTo="yellow" />
 
     </div>
 

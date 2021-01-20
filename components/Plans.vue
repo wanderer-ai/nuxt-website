@@ -9,55 +9,49 @@
 
         <div class="-px-3 flex flex-wrap justify-center lg:justify-start items-stretch">
 
-          <div class="px-3 w-full lg:w-1/2 text-center">
-            <div class="px-8 lg:px-12 bg-gradient-to-br from-green-dark to-green h-full text-white py-48">
+          <div class="px-3 w-full lg:w-1/3 text-center">
+            <div class="px-8 lg:px-12 bg-grey h-full text-white py-48">
               <h2 class="uppercase text-4xl pb-4"><icon name="heart" scale="2"></icon> Free Forever</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
+                  <li><icon name="check" scale="1"></icon> No <strong>payments</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
                   <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Download</strong> your bots</li>
+                  <li><icon name="check" scale="1"></icon> <strong>Download and share</strong> your bots</li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="https://wanderer.ai/bilder">Start building</page-button>
               </div>
             </div>
           </div>
 
-          <div class="px-3 w-full lg:w-1/2 text-center">
+          <div class="px-3 w-full lg:w-1/3 text-center">
             <div class="px-8 lg:px-12 bg-gradient-to-br from-orange to-yellow h-full text-white py-48">
               <h2 class="uppercase text-4xl pb-4"><icon name="crown" scale="2"></icon> Professional</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
-                  <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Download</strong> your bots</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Website and App</strong> integration</li>
+                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
+                  <li><icon name="check" scale="1"></icon> Run <strong>unlimited Bots</strong> on a single Domain or inside a single App</li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>
             </div>
           </div>
 
-          <!-- <div class="px-3 mb-6 w-full lg:w-1/3">
-            <div class="relative">
-              <div class="absolute bg-grey opacity-50 h-full w-full rounded-xl"></div>
-              <div class="relative p-6 lg:p-12">
-                <h2 class="uppercase text-2xl">🚀 Enterprise</h2>
-                <div class="text-lg">
-                  <ul>
-                    <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
-                    <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
-                    <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
-                    <li><icon name="check" scale="1"></icon> <strong>Download</strong> your bots</li>
-                    <li><icon name="check" scale="1"></icon> <strong>Website and App</strong> integration</li>
-                    <li><icon name="check" scale="1"></icon> <strong>Integrate</strong> the builder into <strong>your products</strong></li>
-                  </ul>
-                </div>
+          <div class="px-3 w-full lg:w-1/3 text-center">
+            <div class="px-8 lg:px-12 bg-grey h-full text-white py-48">
+              <h2 class="uppercase text-4xl pb-4"><icon name="rocket" scale="2"></icon> Enterprise</h2>
+              <div class="text-lg">
+                <ul class="mb-8">
+                  <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
+                  <li><icon name="check" scale="1"></icon> Integrate <strong>the builder</strong> within your services and apps</li>
+                </ul>
+                <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>
             </div>
-          </div> -->
+          </div>
 
         </div>
       </div>
@@ -73,6 +67,7 @@ import Icon from '~/node_modules/vue-awesome/components/Icon'
 import '~/node_modules/vue-awesome/icons/check'
 import '~/node_modules/vue-awesome/icons/heart'
 import '~/node_modules/vue-awesome/icons/crown'
+import '~/node_modules/vue-awesome/icons/rocket'
 import PageButton from '~/components/Button.vue'
 
 export default {
