@@ -8,7 +8,7 @@
 
         <div>
           <a class="" href="/" title="Wanderer.ai">
-              <icon name="robot"></icon> Wanderer.ai
+              <!-- <icon name="robot"></icon>-->Wanderer.ai 
           </a>
         </div>
 

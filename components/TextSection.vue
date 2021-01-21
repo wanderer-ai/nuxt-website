@@ -1,6 +1,6 @@
 <template>
 
-  <section :id="id" class="text-section overflow-hidden">
+  <section :id="id" class="text-section overflow-hidden text-grey-dark">
 
     <div class="text-section--background"></div>
     <div class="text-section--background"></div>
@@ -15,7 +15,6 @@
 
           </div>
           <div class="w-full lg:w-1/2 relative ">
-
 
             <slot></slot>
 

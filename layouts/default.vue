@@ -3,7 +3,7 @@
 
     <nuxt/>
 
-    <div class="ribbon bg-white text-black p-4 shadow-md"><a href="/roadmap">Public Alpha</a></div>
+    <a href="/roadmap"class="ribbon bg-white text-black p-4 shadow-md">Public Prototype</a>
 
   </div>
 </template>
@@ -27,6 +27,7 @@ html {
   Ribbon
 */
 .ribbon {
+  display:block;
   z-index:999;
   width: 300px;
   position: fixed;
@@ -51,11 +52,11 @@ html {
 }
 
 .content h2 {
-  @apply mb-2 uppercase text-4xl;
+  @apply mb-2 uppercase text-4xl text-grey-dark;
 }
 
 .content h3 {
-  @apply mb-2 uppercase text-2xl;
+  @apply mb-2 uppercase text-2xl text-grey-dark;
 }
 
 .content ul {

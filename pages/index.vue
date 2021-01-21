@@ -24,7 +24,7 @@
 
       <text-section>
           <icon name="graduation-cap" scale="8" class="mb-4"></icon>
-          <p class="text-black text-3xl mb-8">
+          <p class="text-3xl mb-8">
             <strong>Perfect for absolute beginners:</strong>
             Create your chatbot within a simple, <strong>free and powerful flow builder</strong>. No need for registrations or payments to start.
             Its easy!
@@ -44,10 +44,10 @@
 
       <text-section>
           <icon name="lock" scale="8" class="mb-4"></icon>
-          <p class="text-black text-3xl mb-8">
+          <p class="text-3xl mb-8">
             <strong>Privacy by design:</strong>
             It should never be best practice to send every user input to intransparent server systems. This chatbot will <strong>respect privacy</strong>!
-            It will run completely <strong>independent of any servers</strong> only at client side.
+            Therefore, it is perfect for applications with a <strong>high level of security</strong>.
           </p>
           <page-button bgColor="blue" textColor="white" href="https://wanderer.ai/builder">Start now!</page-button>
       </text-section>
@@ -63,7 +63,7 @@
 
       <text-section>
           <icon name="rocket" scale="8" class="mb-4"></icon>
-          <p class="text-black text-3xl">
+          <p class="text-3xl">
             <strong>Techstack:</strong>
             This bot is using a modern and flexible technology stack containing projects like
             <a class="underline" target="_blank" href="https://nodejs.org/en/">Node.js</a>,

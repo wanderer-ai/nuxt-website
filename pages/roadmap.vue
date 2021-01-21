@@ -46,7 +46,13 @@
           This should give you the opportunity to communicate more freely with the bot.
         </p>
 
-        <h2>6. Headless flow CMS</h2>
+        <h2>6. Provide a Guide view as chat alternative</h2>
+        <strong>Status: Planned</strong>
+        <p>
+          The guide is an alternative to the classic chatbot interface. The guide can, for example, help to make decisions. However, the possibilities for interaction are clearly in the foreground here.
+        </p>
+
+        <h2>7. Headless flow CMS</h2>
         <strong>Status: Planned</strong>
         <p>
           This simple server application allows you to store and manage flows and media centrally. Simply connect the builder to your instance and access your flows and files directly.
