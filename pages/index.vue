@@ -5,11 +5,20 @@
       <app-nav textColor="black" />
 
       <header-section id="start">
-        <h1 class="uppercase text-6xl text-white mb-4">Privacy by design reactive chatbot for the next century web</h1>
-        <p class="text-xl text-white mb-8">
-          Build your bots <strong>without registering or payments</strong>. Run your bots <strong>server independent</strong> only at client side and without internet connection.
+        <h1 class="uppercase text-6xl text-white mb-4">Privacy by design reactive chatbot for the web</h1>
+
+        <ul class="mb-8 text-white">
+          <li><icon name="check" scale="1"></icon> Build <strong>multilingual</strong> bots <strong>without registering or payments</strong>.</li>
+          <li><icon name="check" scale="1"></icon> Run bots <strong>server independent</strong> at client side without internet connection.</li>
+          <li><icon name="check" scale="1"></icon> <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.</li>
+        </ul>
+
+        <!-- <p class="text-xl text-white mb-8">
+          Build <strong>multilingual</strong> bots <strong>without registering or payments</strong>.
+          Run your bots <strong>server independent</strong> only at client side and without internet connection.
           <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.
         </p>
+         -->
         <page-button href="https://wanderer.ai/builder">Build your bot now</page-button>
       </header-section>
 
@@ -90,6 +99,7 @@ import '~/node_modules/vue-awesome/icons/glasses'
 import '~/node_modules/vue-awesome/icons/lock'
 import '~/node_modules/vue-awesome/icons/share-alt'
 import '~/node_modules/vue-awesome/icons/rocket'
+import '~/node_modules/vue-awesome/icons/check'
 
 export default {
   components: {
