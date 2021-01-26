@@ -3,7 +3,7 @@
 
     <nuxt/>
 
-    <a href="/roadmap"class="ribbon bg-white text-black p-4 shadow-md">Public Prototype</a>
+    <a href="/roadmap"class="ribbon bg-white text-black p-4 shadow-md hidden sm:block">Public Prototype</a>
 
   </div>
 </template>
@@ -24,10 +24,20 @@ html {
 }
 
 /*
+  Break long words
+*/
+.break-long-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/*
   Ribbon
 */
 .ribbon {
-  display:block;
   z-index:999;
   width: 300px;
   position: fixed;
@@ -52,11 +62,21 @@ html {
 }
 
 .content h2 {
-  @apply mb-2 uppercase text-4xl text-grey-dark;
+  @apply mb-2 uppercase text-2xl text-grey-dark;
 }
 
 .content h3 {
-  @apply mb-2 uppercase text-2xl text-grey-dark;
+  @apply mb-2 uppercase text-xl text-grey-dark;
+}
+
+@screen md {
+  .content h2 {
+    @apply text-4xl;
+  }
+
+  .content h3 {
+    @apply text-2xl
+  }
 }
 
 .content ul {

@@ -5,7 +5,7 @@
     <div class="text-section--background"></div>
     <div class="text-section--background"></div>
 
-    <div class="py-48">
+    <div class="py-24 sm:py-48">
       <div class="container">
         <div class="flex flex-wrap justify-center lg:justify-start">
           <div class="w-full lg:w-1/4">

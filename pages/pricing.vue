@@ -23,11 +23,7 @@
 
       </div>
 
-      <div class="container">
-
-        <plans />
-
-      </div>
+      <plans />
 
       <app-footer colorFrom="orange" colorTo="yellow" />
 

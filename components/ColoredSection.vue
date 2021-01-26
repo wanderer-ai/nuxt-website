@@ -1,7 +1,9 @@
 <template>
   <section :id="id" class="colored-section relative">
 
-    <vertex :edgeAngle="70" :edgeCount="2" :edgeLength="800" :size="150" :color="colorFrom" class="z-10" style="top:-200px;left:300px;"/>
+    <div class="hidden sm:block">
+      <vertex :edgeAngle="70" :edgeCount="2" :edgeLength="800" :size="150" :color="colorFrom" class="z-10" style="top:-200px;left:300px;"/>
+    </div>
 
     <div :class="'colored-section--clip z-20 relative py-24 bg-gradient-to-br from-'+colorFrom+' to-'+colorTo">
 
@@ -54,8 +56,15 @@
 <style>
 
 .colored-section--clip {
-  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+}
+
+@screen md {
+  .colored-section--clip {
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+  }
 }
 
 </style>

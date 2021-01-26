@@ -9,7 +9,7 @@
 
           <div class="w-full xl:w-1/2">
 
-            <p class="text-3xl mb-8">
+            <p class="text-xl sm:text-2xl mb-8">
               Stay up to date, follow <a class="underline" href="https://twitter.com/wanderer_ai">@wanderer_ai</a> and read
               <a class="underline" href="https://twitter.com/dampfpixel">@dampfpixel's</a> chatbot builder
               <a class="underline" href="https://steampixel.de/en/tag/lets-build-an-open-source-chatbot-builder/">blog series</a>.
@@ -53,7 +53,9 @@
       </div>
     </div>
 
-    <vertex :color="colorFrom" :edgeCount="4" :startAngle="340" :edgeAngle="40" :size="100" class="z-10" style="top:-150px;left:100px;"/>
+    <div class="hidden sm:block">
+      <vertex :color="colorFrom" :edgeCount="4" :startAngle="340" :edgeAngle="40" :size="100" class="z-10" style="top:-150px;left:100px;"/>
+    </div>
 
   </footer>
 
@@ -112,8 +114,15 @@
   } */
 
   .footer-section--clip {
-    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  }
+
+  @screen md {
+    .footer-section--clip {
+      -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    }
   }
 
 </style>

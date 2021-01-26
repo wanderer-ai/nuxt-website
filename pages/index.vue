@@ -5,9 +5,9 @@
       <app-nav textColor="black" />
 
       <header-section id="start">
-        <h1 class="uppercase text-6xl text-white mb-4">Privacy by design reactive chatbot for the web</h1>
+        <h1 class="uppercase text-4xl sm:text-6xl text-white mb-4">Privacy by design reactive chatbot for the web</h1>
 
-        <ul class="mb-8 text-white">
+        <ul class="mb-8 text-white text-xl">
           <li><icon name="check" scale="1"></icon> Build <strong>multilingual</strong> bots <strong>without registering or payments</strong>.</li>
           <li><icon name="check" scale="1"></icon> Run bots <strong>server independent</strong> at client side without internet connection.</li>
           <li><icon name="check" scale="1"></icon> <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.</li>
@@ -24,7 +24,7 @@
 
       <text-section>
           <icon name="graduation-cap" scale="8" class="mb-4"></icon>
-          <p class="text-3xl mb-8">
+          <p class="text-xl md:text-2xl mb-8">
             <strong>Perfect for absolute beginners:</strong>
             Create your chatbot within a simple, <strong>free and powerful flow builder</strong>. No need for registrations or payments to start.
             Its easy!
@@ -34,7 +34,7 @@
 
       <colored-section id="welcome" colorFrom="green-dark" colorTo="green">
         <icon name="glasses" :inverse="true" scale="8" class="mb-4"></icon>
-        <p class="text-white text-3xl mb-8">
+        <p class="text-white text-xl md:text-2xl mb-8">
           <strong>Awesome for bot nerds:</strong>
           This bot traverses complex contexts of logic and knowledge. This leads to non blocking chatbots.
           Like in real conversations this bot is able to interrupt a current question because the <strong>situative context</strong> has changed.
@@ -44,7 +44,7 @@
 
       <text-section>
           <icon name="lock" scale="8" class="mb-4"></icon>
-          <p class="text-3xl mb-8">
+          <p class="text-xl md:text-2xl mb-8">
             <strong>Privacy by design:</strong>
             It should never be best practice to send every user input to intransparent server systems. This chatbot will <strong>respect privacy</strong>!
             Therefore, it is perfect for applications with a <strong>high level of security</strong>.
@@ -54,7 +54,7 @@
 
       <colored-section id="welcome" colorFrom="blue-dark" colorTo="blue">
         <icon name="share-alt" :inverse="true" scale="8" class="mb-4"></icon>
-        <p class="text-white text-3xl mb-8">
+        <p class="text-white text-xl md:text-2xl mb-8">
           <strong>Always your data: </strong>Stop encapsulating expert knowledge in complex and cumbersome program code or server black boxes.
           Knowledge should be <strong>easily accessible</strong> by all people. Host and share your chat flows <strong>wherever you like</strong>.
         </p>
@@ -63,7 +63,7 @@
 
       <text-section>
           <icon name="rocket" scale="8" class="mb-4"></icon>
-          <p class="text-3xl">
+          <p class="text-xl md:text-2xl">
             <strong>Techstack:</strong>
             This bot is using a modern and flexible technology stack containing projects like
             <a class="underline" target="_blank" href="https://nodejs.org/en/">Node.js</a>,

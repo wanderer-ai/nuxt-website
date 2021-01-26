@@ -9,9 +9,9 @@
 
         <div class="-px-3 flex flex-wrap justify-center lg:justify-start items-stretch">
 
-          <div class="px-3 w-full lg:w-1/3 text-center">
-            <div class="px-8 lg:px-12 bg-grey h-full text-white py-48">
-              <h2 class="uppercase text-4xl pb-4"><icon name="heart" scale="2"></icon> Free Forever</h2>
+          <div class="px-3 w-full lg:w-1/3 text-center mb-8 lg:mb-0">
+            <div class="px-8 lg:px-12 bg-grey h-full text-white py-12 py-12 lg:py-48">
+              <h2 class="uppercase text-2xl md:text-4xl pb-4"><icon name="heart" scale="2"></icon> Free Forever</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
@@ -25,9 +25,9 @@
             </div>
           </div>
 
-          <div class="px-3 w-full lg:w-1/3 text-center">
-            <div class="px-8 lg:px-12 bg-gradient-to-br from-orange to-yellow h-full text-white py-48">
-              <h2 class="uppercase text-4xl pb-4"><icon name="crown" scale="2"></icon> Professional</h2>
+          <div class="px-3 w-full lg:w-1/3 text-center mb-8 lg:mb-0">
+            <div class="px-8 lg:px-12 bg-gradient-to-br from-orange to-yellow h-full text-white py-12 lg:py-48">
+              <h2 class="uppercase text-2xl md:text-4xl pb-4 break-long-words"><icon name="crown" scale="2"></icon> Professional</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
@@ -40,8 +40,8 @@
           </div>
 
           <div class="px-3 w-full lg:w-1/3 text-center">
-            <div class="px-8 lg:px-12 bg-grey h-full text-white py-48">
-              <h2 class="uppercase text-4xl pb-4"><icon name="rocket" scale="2"></icon> Enterprise</h2>
+            <div class="px-8 lg:px-12 bg-grey h-full text-white py-12 lg:py-48">
+              <h2 class="uppercase text-2xl md:text-4xl pb-4"><icon name="rocket" scale="2"></icon> Enterprise</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
@@ -82,8 +82,15 @@ export default {
 <style>
 
 .plans--clip {
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 85%);
+  -webkit-clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 98%);
+  clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 98%);
+}
+
+@screen lg {
+  .plans--clip {
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 85%);
+  }
 }
 
 </style>

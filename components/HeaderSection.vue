@@ -1,7 +1,7 @@
 <template>
   <header class="header-section relative">
 
-    <div :class="'header-section--clip z-20 relative py-24 bg-gradient-to-br from-'+colorFrom+' to-'+colorTo">
+    <div :class="'header-section--clip z-20 relative py-12 sm:py-24 bg-gradient-to-br from-'+colorFrom+' to-'+colorTo">
       <div class="container">
 
         <div class="flex flex-wrap">
@@ -55,8 +55,17 @@
 <style>
 
 .header-section--clip {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
+
+@screen md {
+  .header-section--clip {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}
+
+
 
 </style>
