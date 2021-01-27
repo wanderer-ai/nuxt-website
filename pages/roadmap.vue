@@ -5,7 +5,7 @@
       <app-nav />
 
       <header-section colorFrom="red-dark" colorTo="red">
-        <h1 class="uppercase text-6xl text-white mb-4">Public Roadmap</h1>
+        <h1 class="uppercase text-4xl md:text-6xl text-white mb-4">Public Roadmap</h1>
       </header-section>
 
       <div class="container narrow content py-24">
