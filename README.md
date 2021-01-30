@@ -1,6 +1,5 @@
-# website
-
-> Nuxt.js project
+# Wanderer.ai website
+This package includes the Wanderer.ai website. The website was built with nuxtjs.
 
 ## Build Setup
 
@@ -20,4 +19,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
