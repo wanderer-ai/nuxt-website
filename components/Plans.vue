@@ -1,6 +1,6 @@
 <template>
 
-  <section class="plans relative bg-white mb-48" >
+  <section class="plans relative bg-white mb-24" >
 
     <!-- <vertex color="yellow" :edgeCount="5" :edgeAngle="110" :edgeLength="200" :size="100" class="z-10" style="bottom:50%;left:50%;"/> -->
 
@@ -30,9 +30,10 @@
               <h2 class="uppercase text-2xl md:text-4xl pb-4 break-long-words"><icon name="crown" scale="2"></icon> Professional</h2>
               <div class="text-lg">
                 <ul class="mb-8">
-                  <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
-                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the free version</li>
                   <li><icon name="check" scale="1"></icon> Run <strong>unlimited Bots</strong> on a single Domain or inside a single App</li>
+                  <li><icon name="check" scale="1"></icon> <strong>Integration support for one website</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>
@@ -44,9 +45,10 @@
               <h2 class="uppercase text-2xl md:text-4xl pb-4"><icon name="rocket" scale="2"></icon> Enterprise</h2>
               <div class="text-lg">
                 <ul class="mb-8">
-                  <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
-                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the professional version</li>
                   <li><icon name="check" scale="1"></icon> Integrate <strong>the builder</strong> within your services and apps</li>
+                  <li><icon name="check" scale="1"></icon> <strong>Integration support</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>

@@ -8,7 +8,7 @@
         <h1 class="uppercase text-6xl text-white mb-4">End User License Agreement</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-48">
 
         <h2>About this Agreement</h2>
 

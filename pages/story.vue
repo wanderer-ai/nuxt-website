@@ -8,7 +8,7 @@
         <h1 class="uppercase text-6xl text-white mb-4">Story</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-48">
 
         <p>
           Hey! My name is Chris. I am developer, coder and enthusiastic web freelancer from Germany.

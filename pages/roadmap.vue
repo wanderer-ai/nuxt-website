@@ -8,7 +8,7 @@
         <h1 class="uppercase text-4xl md:text-6xl text-white mb-4">Public Roadmap</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-48">
 
         <p>
           This software is currently public alpha. Not all features have been implemented yet. Here you can see what's next on the list.

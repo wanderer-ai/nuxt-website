@@ -8,7 +8,7 @@
         <h1 class="uppercase text-4xl md:text-6xl text-white mb-4">Frequently asked questions</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-48">
 
         <h2>What is the current status of the project?</h2>
         <p>
@@ -63,7 +63,7 @@
 
         <h2>Under which license will the software be available?</h2>
         <p>
-          For the moment this is commercial software. I wish I could put the software under a common open source license, but too much time and effort went into it.
+          For the moment this is commercial software. I wish I could put the software under a common open source license, but too much research, time and effort went into it.
           That means that you have to purchase a license if you plan to run the bot builder or single chatbots on your own website
           Use the bot builder and the chatbots for free as long as you use them with the Wanderer.ai domain.
           But the detailed terms are not very clear right now.

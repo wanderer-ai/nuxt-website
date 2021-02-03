@@ -61,6 +61,10 @@ html {
   @apply mb-6 text-xl;
 }
 
+.content a {
+  text-decoration:underline;
+}
+
 .content h2 {
   @apply mb-2 uppercase text-2xl text-grey-dark;
 }

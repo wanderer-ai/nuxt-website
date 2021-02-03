@@ -8,7 +8,7 @@
         <h1 class="uppercase text-6xl text-white mb-4">Privacy Policy</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-48">
 
         <h2>1. An overview of data protection</h2>
         <h3>General</h3>

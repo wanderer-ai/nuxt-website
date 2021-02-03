@@ -8,7 +8,7 @@
         <h1 class="uppercase text-6xl text-white mb-4">Pricing</h1>
       </header-section>
 
-      <div class="container narrow content py-24">
+      <div class="container narrow content pt-24 pb-12">
 
         <p>
           This software is open source but it is not completely free.
@@ -16,14 +16,21 @@
           Use the botbuilder and the chatbots for free as long as you use them with the Wanderer.ai domain.
         </p>
 
-        <p>
-          The pricing model is not very clear right now.
-          But I want to keep it simple. So you have to purchase a license code for each domain or App on which one or more bots are running.
-        </p>
-
       </div>
 
       <plans />
+
+      <div class="container narrow content pb-48">
+
+        <p>
+
+          Do you work for an NGO or a non-profit organization? Are you a student or do you need Wanderer.ai for research purposes?
+          Then you can get your license at a reduced price or for free.
+          <a href="mailto://hello@wanderer.ai">Then get in touch with us.</a>
+
+        </p>
+
+      </div>
 
       <app-footer colorFrom="orange" colorTo="yellow" />
 
