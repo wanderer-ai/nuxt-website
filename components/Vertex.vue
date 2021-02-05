@@ -2,7 +2,7 @@
 
     <div class="vertex">
 
-      <div class="vertex--center">
+      <div :class="'vertex--center vertex--animate--'+animationDirection">
         <div v-for="n in edgeCount" v-bind:key="n" :class="'vertex--edge border-'+color" :style="'transform: rotate('+(startAngle+(n*edgeAngle))+'deg); width:'+(edgeLength+(n*100))+'px;'">
           <div :class="'vertex--child bg-'+color+' '" :style="'width:'+(size*0.5)+'px;height:'+(size*0.5)+'px;'" />
         </div>
@@ -42,6 +42,10 @@
         type: Number,
         default: 208
       },
+      animationDirection: {
+        type: String,
+        default: 'clock'
+      },
     }
   }
 
@@ -53,6 +57,45 @@
 .vertex {
   display: block;
   position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.vertex--animate--clock {
+  -webkit-animation:spin 60s linear infinite;
+  -moz-animation:spin 60s linear infinite;
+  animation:spin 60s linear infinite;
+}
+
+.vertex--animate--counter {
+  -webkit-animation:counterspin 60s linear infinite;
+  -moz-animation:counterspin 60s linear infinite;
+  animation:counterspin 60s linear infinite;
+}
+
+@-moz-keyframes spin {
+  50% { -moz-transform: rotate(20deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  50% { -moz-transform: rotate(20deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@keyframes spin {
+  50% { -moz-transform: rotate(20deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+
+@-moz-keyframes counterspin {
+  50% { -moz-transform: rotate(-20deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes counterspin {
+  50% { -moz-transform: rotate(-20deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@keyframes counterspin {
+  50% { -moz-transform: rotate(-20deg); }
+  100% { -moz-transform: rotate(0deg); }
 }
 
 .vertex--circle {
@@ -90,6 +133,19 @@
   top:0px;
   right:0px;
   transform:translateX(50%) translateY(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.vertex:hover .vertex--child {
+  border:5px solid #c334eb;
+}
+
+.vertex:hover .vertex--circle {
+  border:5px solid #c334eb;
+}
+
+.vertex:hover .vertex--edge {
+  border-color:#c334eb;
 }
 
 </style>

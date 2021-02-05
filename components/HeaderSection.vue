@@ -11,7 +11,9 @@
           </div>
 
           <div class="w-full xl:w-1/2 hidden xl:block">
-            <vertex color="white" :edgeCount="3" :edgeAngle="312" :size="200" style="bottom:0px;right:-30px;" />
+            <parallax direction="down" :factor="0.5" class="w-full h-full">
+              <vertex color="white" :edgeCount="3" :edgeAngle="312" :size="200" animationDirection="clock" style="bottom:-100px;right:-100px;" />
+            </parallax>
           </div>
 
         </div>
@@ -20,7 +22,9 @@
     </div>
 
     <div class="hidden lg:block">
-      <vertex :color="colorTo" :edgeCount="3" :edgeAngle="100" :size="100" class="z-10" style="bottom:-200px;left:100px;"/>
+      <parallax direction="up" :factor="0.5">
+        <vertex :color="colorTo" :edgeCount="3" :edgeAngle="100" :size="100" animationDirection="counter" class="z-10" style="bottom:-200px;left:100px;"/>
+      </parallax>
     </div>
 
   </header>
@@ -29,10 +33,11 @@
 <script>
 
   import Vertex from '~/components/Vertex.vue'
+  import Parallax from '~/components/Parallax.vue'
 
   export default {
     components: {
-      Vertex
+      Vertex, Parallax
     },
     props: {
       id: {

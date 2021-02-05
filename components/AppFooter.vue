@@ -2,6 +2,12 @@
 
   <footer class="footer-section relative">
 
+    <div class="hidden sm:block">
+      <parallax direction="up" :factor="0.3" class="">
+        <vertex :color="colorFrom" :edgeCount="4" :startAngle="340" :edgeAngle="40" :size="100" animationDirection="counter" class="z-10" style="top:-200px;left:100px;"/>
+      </parallax>
+    </div>
+
     <div :class="'footer-section--clip z-20 relative py-24 bg-gradient-to-br text-white from-'+colorFrom+' to-'+colorTo">
       <div class="container">
 
@@ -45,16 +51,14 @@
           </div>
 
           <div class="w-full xl:w-1/2 hidden xl:block">
-            <vertex color="white" :edgeCount="3" :startAngle="140" :edgeAngle="30" :edge-length="140" :size="200" style="bottom:-100px;right:-30px;"/>
+            <parallax direction="up" :factor="0.5" class="">
+              <vertex color="white" :edgeCount="3" :startAngle="140" :edgeAngle="30" :edge-length="140" :size="200" animationDirection="clock" style="bottom:-200px;right:-100px;"/>
+            </parallax>
           </div>
 
         </div>
 
       </div>
-    </div>
-
-    <div class="hidden sm:block">
-      <vertex :color="colorFrom" :edgeCount="4" :startAngle="340" :edgeAngle="40" :size="100" class="z-10" style="top:-150px;left:100px;"/>
     </div>
 
   </footer>
@@ -64,10 +68,11 @@
 <script>
 
   import Vertex from '~/components/Vertex.vue'
+  import Parallax from '~/components/Parallax.vue'
 
   export default {
     components: {
-      Vertex
+      Vertex, Parallax
     },
     props: {
       colorFrom: {

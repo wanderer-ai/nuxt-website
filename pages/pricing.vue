@@ -26,7 +26,7 @@
 
           Do you work for an NGO or a non-profit organization? Are you a student or do you need Wanderer.ai for research purposes?
           Then you can get your license at a reduced price or for free.
-          <a href="mailto://hello@wanderer.ai">Then get in touch with us.</a>
+          <a href="mailto://hello@wanderer.ai">Get in touch with us.</a>
 
         </p>
 
