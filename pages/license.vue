@@ -5,7 +5,7 @@
       <app-nav />
 
       <header-section colorFrom="blue-dark" colorTo="blue">
-        <h1 class="uppercase text-6xl text-white mb-4">End User License Agreement</h1>
+        <h1 class="uppercase text-6xl text-white mb-4">Professional End User License Agreement</h1>
       </header-section>
 
       <div class="container narrow content pt-24 pb-48">
@@ -13,15 +13,20 @@
         <h2>About this Agreement</h2>
 
         <p>
-          The Wanderer.ai source code is publicly available but this is not free software.
-          To use Wanderer.ai products on a public server or inside your Apps, you need to purchase a license.
-          This End User License Agreement (the "Agreement") is fundamental to the relationship between you and us.
-          Therefore we recommend to read this Agreement carefully before you download, install or use Wanderer.ai.
+          This project uses a dual licensing model. Most of the packags are available under the AGPLv3. Some plugins will require a professional license.
+          This license is about those professional plugins and packages.
         </p>
 
         <p>
-          If you do not agree to this Agreement, please do not download, install or use Wanderer.ai.
-          Installation or use of Wanderer.ai signifies that you have read, understood, and agreed to be bound by this Agreement.
+          The Wanderer.ai source code is publicly available but it is not completely free software.
+          To use Wanderer.ai professional plugins or packages on a public server or inside your Apps, you need to purchase a license.
+          This End User License Agreement (the "Agreement") is fundamental to the relationship between you and us.
+          Therefore we recommend to read this Agreement carefully before you download, install or use professional Wanderer.ai packages or plugins.
+        </p>
+
+        <p>
+          If you do not agree to this Agreement, please do not download, install or use Wanderer.ai's professional packages or plugins.
+          Installation or use of professional Wanderer.ai packages or plugins signifies that you have read, understood, and agreed to be bound by this Agreement.
         </p>
 
         <h2>Definitions</h2>
@@ -47,22 +52,13 @@
           A development environment or development machine can only be used by a few people and is not publicly visible.
         </p>
 
-        <h3>Wanderer.ai Chat</h3>
-        <p>
-          The chat only includes the chat component, which can be integrated on websites. The chat is essentially defined by this package: https://github.com/wanderer-ai/wanderer/tree/master/packages/wanderer-chat-browser
-        </p>
-
-        <h3>Wanderer.ai Builder</h3>
-        <p>
-          The builder is the software that can be used to build chatbot flows. This is essentially defined by this package: https://github.com/wanderer-ai/wanderer/tree/master/packages/wanderer-builder-browser
-        </p>
-
         <h2>Usage for a public website or public App</h2>
         <p>
-          Installing Wanderer.ai on a public domain or inside an App requires a paid license.
-          As Wanderer.ai is software and software is intangible, we don't sell it as such.
-          Instead, this Agreement grants a license for each purchase to install and use one or multiple instances of Wanderer.ai on a specific Website or inside an App.
-          Additional Wanderer.ai licenses must be purchased in order to install and use Wanderer.ai on additional Websites or inside additional Apps.
+          Using professional Wanderer.ai packages or plugins on a public domain or inside an App requires a paid license.
+          Nevertheless, the pure installation of these packages is allowed.
+          As professional Wanderer.ai packages or plugins is software and software is intangible, we don't sell it as such.
+          Instead, this Agreement grants a license for each purchase to install and use one or multiple instances of Wanderer.ai's professional packages or plugins on a specific Website or inside an App.
+          Additional professional Wanderer.ai plugins or package licenses must be purchased in order to install and use professional Wanderer.ai plugins or packages on additional Websites or inside additional Apps.
         </p>
 
         <p>
@@ -71,7 +67,7 @@
         </p>
 
         <p>
-          If you need to transfer your Wanderer.ai license to another individual or company, please get in touch directly.
+          If you need to transfer your professional Wanderer.ai license to another individual or company, please get in touch directly.
         </p>
 
         <p>
@@ -85,21 +81,21 @@
 
         <h2>Free licenses</h2>
         <p>
-          Wanderer.ai can be used for free in the following cases:
+          Professional Wanderer.ai plugins or packages can be used for free in the following cases:
         </p>
 
         <h3>Use it directly from the Wanderer.ai Domain</h3>
         <p>
-          You can use Wanderer.ai completely for free by using the Software directly from the Wanderer.ai domain. So you can use the chat and the builder for free.
-          Attention! This is only valid if the Wanderer.ai domain is used directly! If you want to integrate Wanderer.ai through frames, iframes or via CDN, you need a paid license.
+          You can use professional Wanderer.ai packages and plugins completely for free by using the Software directly from the Wanderer.ai domain. So you can use the chat and the builder for free.
+          Attention! This is only valid if the Wanderer.ai domain is used directly! If you want to integrate professional Wanderer.ai plugins or packages through frames, iframes or via CDN, you need a paid license.
         </p>
 
         <h3>Usage on a development machine</h3>
         <p>
           We believe that it should be possible to test and evaluate software before having to purchase a license.
           Also, we understand that a web project first needs to be built in a protected environment before it can be published.
-          Therefore, installing and using Wanderer.ai on a development machine is free for as long as you need.
-          This includes permanent usage of Wanderer.ai in an not public intranet.
+          Therefore, installing and using professional Wanderer.ai plugins or packages on a development machine is free for as long as you need.
+          This includes permanent usage of professional Wanderer.ai plugins or packages in an not public intranet.
         </p>
 
         <h2>Restrictions</h2>
@@ -137,7 +133,7 @@
 
         <h3>Your Relationship to Third Parties</h3>
         <p>
-          You are not allowed to sell, assign, license, disclose, distribute, or otherwise transfer or make available Wanderer.ai or its Source Code,
+          You are not allowed to sell, assign, license, disclose, distribute, or otherwise transfer or make available professional Wanderer.ai plugins or packages or its Source Code,
           in whole or in part, in any form to any third parties.
         </p>
 
@@ -148,7 +144,7 @@
 
         <ul>
           <li>extract parts of the Source Code for use in other programs or projects or</li>
-          <li>remove or alter any proprietary notices on Wanderer.ai.</li>
+          <li>remove or alter any proprietary notices on Wanderer.ai plugins or packages.</li>
         </ul>
 
         <p>
@@ -157,12 +153,14 @@
 
         <h2>Technical Support</h2>
         <p>
-          Technical support is limited to the integration of the bot in websites or existing applications.
+          Technical support for professional packages and plugins is limited to the integration of the bot into websites or existing applications.
 
-          We do not guarantee support for created chat flows, as these can sometimes be very complex.
+          The total support may not last longer than an hour. Everything that goes beyond that requires a separate support contract.
+
+          We do not guarantee support for created chat flows, as these can sometimes be very large and complex.
           In this case, contact us so that we can make a support offer.
 
-          We reserve the right to limit technical support for free licenses.
+          We reserve the right to limit technical support for free and Open Source licenses.
         </p>
 
         <h2>Refund Policy</h2>
@@ -217,9 +215,8 @@
 
         <h2>Questions?</h2>
         <p>
-          Contact us at any time if you have any questions using hello@wanderer.ai.
+          Contact us at any time if you have any questions via hello@wanderer.ai.
         </p>
-
 
       </div>
 

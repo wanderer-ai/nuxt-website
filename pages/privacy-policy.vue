@@ -51,7 +51,7 @@
 
         <p>The party responsible for processing data on this website is:</p>
 
-        <p>SteamPixel Media<br>
+        <p>SteamPixel<br>
         Chrlstoph Stltz<br>
         Erthalstrasse 6<br>
         97074 Würzburg</p>

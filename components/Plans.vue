@@ -32,7 +32,7 @@
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the free version</li>
                   <li><icon name="check" scale="1"></icon> Run <strong>unlimited Bots</strong> on a single Domain or inside a single App</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Integration support for one website</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>1h Integration support for one website or App</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
@@ -46,9 +46,9 @@
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the professional version</li>
-                  <li><icon name="check" scale="1"></icon> Integrate <strong>the builder</strong> within your services and apps</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Integration support</strong></li>
-                  <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
+                  <li><icon name="check" scale="1"></icon> Sell modified versions of <strong>the builder</strong> </li>
+                  <li><icon name="check" scale="1"></icon> <strong>Professional flow and integration support</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>Free major updates and bug fixes</strong></li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
               </div>

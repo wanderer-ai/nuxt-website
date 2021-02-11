@@ -20,7 +20,18 @@
         </p>
          -->
         <page-button href="https://wanderer.ai/builder">Build your bot now</page-button>
+
       </header-section>
+
+      <!-- <div class="container">
+        <div class="relative">
+          <div class="absolute w-1/2 border-2 border-solid border-black rounded-md" style="right:0;margin-top:-30%;z-index:99;">
+            <video autoplay loop>
+              <source src="/videos/wanderer-builder.webm" type='video/webm; codecs="vp8, vorbis"' />
+            </video>
+          </div>
+        </div>
+      </div> -->
 
       <text-section>
           <icon name="graduation-cap" scale="8" class="mb-4"></icon>

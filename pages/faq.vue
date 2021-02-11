@@ -47,12 +47,6 @@
           user input to somewhere. Also, you can decide on your own which information will be sent to which servers.
         </p>
 
-        <h2>Can I use the bot builder for free?</h2>
-        <p>
-          Yes! Absolutely. You can just use the bot builder on the Wanderer.ai website for free. You don't have to register or pay to use this application.
-          This becomes only relevant if you plan to run the builder or chatbots under your own public domains. In this case you have to purchase a license.
-        </p>
-
         <h2>How can I embed the chatbot to a website?</h2>
         <p>
           Note: This is not possible at the moment because the chatbot web component is not ready for production right now! But yes. This is planned.
@@ -61,18 +55,24 @@
           But again. You have to purchase a valid license if you plan to integrate your chatbot to your public website.
         </p>
 
+        <h2>Can I use the bot builder for free?</h2>
+        <p>
+          Yes! Absolutely. You can just use the bot builder on the Wanderer.ai website for free. You don't have to register or pay to use this application.
+          This becomes only relevant if you plan to run the builder or chatbots under your own public domains or inside your Apps and if you use professional plugins.
+          In this case you have to purchase a license.
+        </p>
+
         <h2>Under which license will the software be available?</h2>
         <p>
-          For the moment this is commercial software. I wish I could put the software under a common open source license, but too much research, time and effort went into it.
-          That means that you have to purchase a license if you plan to run the bot builder or single chatbots on your own website
-          Use the bot builder and the chatbots for free as long as you use them with the Wanderer.ai domain.
-          But the detailed terms are not very clear right now.
+          This project uses a dual licensing model. Most of the packages are available under the AGPLv3. But some plugins require a professional license.
+          That means that you have to purchase a license if you plan to run the bot builder or single chatbots on your own website using this professional plugins.
+          Use the professional plugins for free as long as you use them with the Wanderer.ai domain.
         </p>
 
         <h2>Can you tell me something about the future pricing model?</h2>
         <p>
-          As I mentioned before you need to purchase a license key, if you plan to run a chatbot using a public domain. The pricing model is not very clear right now.
-          But I want to keep it simple. So you have to purchase a license code for each domain to use this software on it.
+          The pricing model is not very clear right now.
+          But I want to keep it simple. So you have to purchase a professional license for each domain a chatbot with professional plugins is running.
         </p>
 
         <h2>Where are the flows stored?</h2>
