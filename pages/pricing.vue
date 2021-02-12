@@ -11,8 +11,7 @@
       <div class="container narrow content pt-24 pb-12">
 
         <p>
-          This software is open source (AGPLv3) but not all plugins are completely free.
-          That means that you have to purchase a license if you plan to run the botbuilder or single chatbots on your own website or inside your apps using professional plugins.
+          Most of this software is open source (AGPLv3) but not all plugins are free too. Some plugins will need a professional license if you want to run them on your own website or within your apps.
           Use the botbuilder and the chatbots for free as long as you use them with the Wanderer.ai domain.
         </p>
 

@@ -7,7 +7,13 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Wanderer.ai will leverage chatbot context to the next level by storing and executing its artificial intellicenge (AI) inside a logic graph.' }
+      { hid: 'description', name: 'description', content: 'reactive context, open source, privacy by design, no registering or payments, runs completely offline' },
+
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@wanderer_ai' },
+      { name: 'twitter:title', content: 'Reactive chatbot builder for the web' },
+      { name: 'twitter:description', content: 'reactive context, open source, privacy by design, no registering or payments, runs completely offline' },
+      { name: 'twitter:image', content: 'https://wanderer.ai/preview.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

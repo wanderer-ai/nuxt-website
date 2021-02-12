@@ -8,9 +8,13 @@
         <h1 class="uppercase text-4xl sm:text-6xl text-white mb-4">Privacy by design reactive chatbot for the web</h1>
 
         <ul class="mb-8 text-white text-xl">
-          <li><icon name="check" scale="1"></icon> Build <strong>multilingual</strong> bots <strong>without registering or payments</strong>.</li>
-          <li><icon name="check" scale="1"></icon> Run bots <strong>server independent</strong> at client side without internet connection.</li>
-          <li><icon name="check" scale="1"></icon> <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.</li>
+          <li><icon name="check" scale="1"></icon> Open Source</li>
+          <li><icon name="check" scale="1"></icon> Privacy by design</li>
+          <li><icon name="check" scale="1"></icon> Multilingual bots</li>
+          <li><icon name="check" scale="1"></icon> No registering or payments needed</li>
+          <li><icon name="check" scale="1"></icon> Works without internet connection</li>
+          <li><icon name="check" scale="1"></icon> Reactive context graph technology</li>
+          <li><icon name="check" scale="1"></icon> Share your bots with all peoples</li>
         </ul>
 
         <!-- <p class="text-xl text-white mb-8">
@@ -19,7 +23,7 @@
           <strong>Share your bots</strong> with all peoples. Keep your data <strong>always yours</strong>.
         </p>
          -->
-        <page-button href="https://wanderer.ai/builder">Build your bot now</page-button>
+        <page-button href="https://wanderer.ai/builder">Build your bot now, really ;-)</page-button>
 
       </header-section>
 

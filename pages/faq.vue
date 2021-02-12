@@ -52,7 +52,6 @@
           Note: This is not possible at the moment because the chatbot web component is not ready for production right now! But yes. This is planned.
           First, you have to download your chatbot flow file from the Wanderer Builder. You can store it then for example to your website's filesystem.
           Then you can simply include a JavaScript webcomponent to your website that will then load your flow. That's it.
-          But again. You have to purchase a valid license if you plan to integrate your chatbot to your public website.
         </p>
 
         <h2>Can I use the bot builder for free?</h2>
