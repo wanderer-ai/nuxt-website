@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "nuxt": "latest",
     "vue-awesome": "^3.1.3"
   },

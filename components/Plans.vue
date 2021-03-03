@@ -11,13 +11,14 @@
 
           <div class="px-3 w-full lg:w-1/3 text-center mb-8 lg:mb-0">
             <div class="px-8 lg:px-12 bg-grey h-full text-white py-12 py-12 lg:py-48">
-              <h2 class="uppercase text-2xl md:text-4xl pb-4"><icon name="heart" scale="2"></icon> Free Forever</h2>
+              <h2 class="uppercase text-2xl md:text-4xl pb-4"><icon name="heart" scale="2"></icon> Community</h2>
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> No <strong>registration</strong></li>
                   <li><icon name="check" scale="1"></icon> No <strong>payments</strong></li>
+                  <li><icon name="check" scale="1"></icon> Community <strong>support</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Build</strong> bots on Wanderer.ai</li>
-                  <li><icon name="check" scale="1"></icon> <strong>Run</strong> bots on Wanderer.ai</li>
+                  <li><icon name="check" scale="1"></icon> <strong>Run</strong> your bots wherever you like</li>
                   <li><icon name="check" scale="1"></icon> <strong>Download and share</strong> your bots</li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="https://wanderer.ai/builder">Start building</page-button>
@@ -31,8 +32,7 @@
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the free version</li>
-                  <li><icon name="check" scale="1"></icon> Run <strong>unlimited Bots</strong> on a single Domain or inside a single App</li>
-                  <li><icon name="check" scale="1"></icon> <strong>1h Integration support for one website or App</strong></li>
+                  <li><icon name="check" scale="1"></icon> <strong>Use professional nodes</strong> for one domain or app</li>
                   <li><icon name="check" scale="1"></icon> <strong>Free minor updates and bug fixes</strong></li>
                 </ul>
                 <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
@@ -46,11 +46,11 @@
               <div class="text-lg">
                 <ul class="mb-8">
                   <li><icon name="check" scale="1"></icon> <strong>All features</strong> from the professional version</li>
-                  <li><icon name="check" scale="1"></icon> Sell modified versions of <strong>the builder</strong> </li>
+                  <li><icon name="check" scale="1"></icon> Sell modified versions of <strong>the bot or builder</strong> </li>
                   <li><icon name="check" scale="1"></icon> <strong>Professional flow and integration support</strong></li>
                   <li><icon name="check" scale="1"></icon> <strong>Free major updates and bug fixes</strong></li>
                 </ul>
-                <page-button bgColor="white" textColor="black" href="#">Available soon</page-button>
+                <page-button bgColor="white" textColor="black" href="mailto:hello@wanderer.ai">Get in touch</page-button>
               </div>
             </div>
           </div>

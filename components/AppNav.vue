@@ -21,6 +21,7 @@
             <a class="mx-2" href="https://wanderer.ai/builder" target="_blank">Builder</a>
             <a class="mx-2" href="/story">Story</a>
             <a class="mx-2" href="/pricing">Pricing</a>
+            <a class="mx-2" href="/blog">Blog</a>
             <a class="mx-2" href="/faq">FAQ</a>
             <a class="mx-2" href="/roadmap">Roadmap</a>
             <a class="mx-2" href="https://wanderer.ai/docs" target="_blank">Docs</a>

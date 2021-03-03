@@ -48,7 +48,7 @@
       </text-section>
 
       <colored-section id="welcome" colorFrom="green-dark" colorTo="green">
-        <icon name="glasses" :inverse="true" scale="8" class="mb-4"></icon>
+        <icon name="lightbulb" :inverse="true" scale="8" class="mb-4"></icon>
         <p class="text-white text-xl md:text-2xl mb-8">
           <strong>Awesome for bot nerds:</strong>
           This bot traverses complex contexts of logic and knowledge. This leads to non blocking chatbots.
@@ -110,7 +110,7 @@ import Logo from '~/components/Logo.vue'
 
 import Icon from '~/node_modules/vue-awesome/components/Icon'
 import '~/node_modules/vue-awesome/icons/graduation-cap'
-import '~/node_modules/vue-awesome/icons/glasses'
+import '~/node_modules/vue-awesome/icons/lightbulb'
 import '~/node_modules/vue-awesome/icons/lock'
 import '~/node_modules/vue-awesome/icons/share-alt'
 import '~/node_modules/vue-awesome/icons/rocket'
