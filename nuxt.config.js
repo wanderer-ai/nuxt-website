@@ -27,32 +27,18 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** Run ESLint on save
-    */
-    // extend (config, { isDev, isClient }) {
-    //   if (isDev && isClient) {
-    //     config.module.rules.push({
-    //       enforce: 'pre',
-    //       test: /\.(js|vue)$/,
-    //       loader: 'eslint-loader',
-    //       exclude: /(node_modules)/
-    //     })
-    //   }
-    // },
 
-    // Bootstrap is too big for one vendor: Split it up
-    // https://github.com/nuxt/nuxt.js/pull/2687
-    // vendor: ['bootstrap-vue'],
-    // maxChunkSize: 300000 // value in octet
-
-    /*analyze: true,
-    // or
-    analyze: {
-      analyzerMode: 'static'
-    }*/
 
   },
+
+  // Unfortunalely the automatic crawler will not work for the blog section
+  // So I have to define every static blog route in here
+  generate: {
+    routes: [
+      '/blog/why-i-built-wanderer.ai'
+    ]
+  },
+
   modules: [
     // {src: 'bootstrap-vue/nuxt'},
     // ['nuxt-matomo', { matomoUrl: '//matomo.steampixel.de/', siteId: 2 }]
