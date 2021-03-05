@@ -9,11 +9,11 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'reactive context, open source, privacy by design, no registering or payments, runs completely offline' },
 
-      { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:site', content: '@wanderer_ai' },
-      { name: 'twitter:title', content: 'Reactive chatbot builder for the web' },
-      { name: 'twitter:description', content: 'reactive context, open source, privacy by design, no registering or payments, runs completely offline' },
-      { name: 'twitter:image', content: 'https://wanderer.ai/preview.png' }
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@wanderer_ai' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Reactive chatbot builder for the web' },
+      { hid: 'twitter:description', name: 'twitter:description', content: 'reactive context, open source, privacy by design, no registering or payments, runs completely offline' },
+      { hid: 'twitter:image', name: 'twitter:image', content: 'https://wanderer.ai/preview.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -37,7 +37,8 @@ module.exports = {
     routes: [
       '/blog/why-i-built-wanderer.ai',
       '/blog/why-a-conversation-does-not-fit-into-a-tree',
-      '/blog/conversations-in-relational-databases'
+      '/blog/conversations-in-relational-databases',
+      '/blog/the-power-of-logic-graphs-in-chatbot-conversations'
     ]
   },
 

@@ -12,10 +12,10 @@
 
         <div class="mb-16" v-for="article of articles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <img class="mb-4" :src="'/blogimages/'+article.img" />
+            <img class="mb-2" :src="'/blogimages/'+article.img" />
             <div class="">
+              <div class="text-sm mb-2">{{date(article.createdAt)}} by {{ article.author.name }}</div>
               <h2 class="text-2xl">{{ article.title }}</h2>
-              <div class="text-sm mb-4">by {{ article.author.name }}</div>
               <div class="mb-4">{{ article.description }}</div>
               <div class="underline">Read more</div>
             </div>
@@ -43,12 +43,18 @@
     },
     async asyncData({ $content, params }) {
       const articles = await $content('articles')
-        .only(['title', 'description', 'img', 'slug', 'author'])
+        .only(['title', 'description', 'img', 'slug', 'author', 'createdAt'])
         .sortBy('createdAt', 'desc')
         .fetch()
 
       return {
         articles
+      }
+    },
+    methods: {
+      date (d) {
+        let date = new Date(Date.parse(d))
+        return date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate()
       }
     }
   }
