@@ -9,13 +9,7 @@ There are many different approaches for mapping conversations in databases. In t
 
 <!--more-->
 
-To decide which database is the right one to represent a planned chatbot conversation, you first need to know which structures can be identified within conversations. [I have already written a separate article about this topic in which I have shown why conversations consists of network like structures.](https://steampixel.de/en/part-2-why-a-conversation-does-not-fit-into-a-tree/) I therefore assume that conversations in guided conversations essentially consist of the following elements that can be interconnected:
-
-* Questions
-* Suggested answers
-* Connections between them
-
-In the further course of this blog series, additional elements will be added. For the reason of simplicity, I reduce the conversation to its core elements at this point.
+To decide which database is the right one to represent a planned chatbot conversation, you first need to know which structures can be identified within conversations. [I have already written a separate article about this topic in which I have shown why conversations consists of network like structures.](https://wanderer.ai/blog/why-a-conversation-does-not-fit-into-a-tree)
 
 ## Relational approaches
 Have you ever wondered why relational data is usually managed in tabular form? If you look at a classic [CRUD](https://wikipedia.org/wiki/CRUD), the reason for that will quickly clear up.
@@ -27,7 +21,7 @@ It would require a lot of conecptual effort and coding for developers to display
 ## What does this mean for the storage of network structures?
 Networks are far more complex than trees. Because they make it possible that different branches can grow together again and thereby form a new trunk. So we have a finite number of items, each with n links to other items, which in turn have n links to other items.
 
-Transferring to our model of questions and given options of answering we come to the following conclusion:
+Transferring to a model of chatbot like questions and answers we come to the following conclusion:
 
 * We need a table where we can store the questions with their properties
 * We need a table where we can store the suggestions along with their properties
@@ -93,8 +87,6 @@ Pure document stores like MongoDB have similar problems. You can either choose t
 ## Graph approaches
 Surely you've already guessed it. The only reasonable way to represent unstructured connections between different items are graph databases. They allow you to map your network structure exactly as you would expect it to be in reality. This gives you the possibility of storing the conversation structure the same way you would design it with an editor.
 
-In my next chapter I’ll show you what this might look like.
-
-[Here you will find more articles on the topic](https://steampixel.de/en/tag/lets-build-an-open-source-chatbot-builder/)
+Here at Wanderer.ai, that's exactly what we're trying to do. We use a graph approach to manage all of the data in a possible conversation. At the same time, we can use the graph to traverse the data in an elegant way.
 
 [Title image from Pixabay](https://pixabay.com/de/photos/karten-katalog-schubladen-holz-194280/)

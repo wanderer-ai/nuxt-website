@@ -23,50 +23,40 @@ The first form is a simple sequential chain of various questions that are asked 
 
 This type of pattern is typical for the beginning of a conversation. For example, when we have to collect some basic information on which the subsequent conversation is based on. Incidentally, such chains can still be modeled easily in tree structures.
 
-![chain-structures-in-conversations](http://steampixel.de/en/content/images/2018/04/chain-structures-in-conversations.jpg)
+![chain-structures-in-conversations](/blogimages/why-a-conversation-does-not-fit-into-a-tree/question-chain.png)
 
 ### 2. Tree structures of questions and answers
 There are also pure tree structures in conversations. Yet, you will see that these are not the only structures in planned discussions.
 
 The interesting thing about tree structures in conversations is that the questions that are below a particular node are completely equal. Therefore, it should never matter which of the other questions is asked next. For example, they could easily be chosen randomly. If the order of questions is important, however, question chains are the better choice.
 
-![tree-structures-in-conversations](http://steampixel.de/en/content/images/2018/04/tree-structures-in-conversations.jpg)
+![tree-structures-in-conversations](/blogimages/why-a-conversation-does-not-fit-into-a-tree/question-tree.png)
 
-### 3. Merging information to conclusions
-One could also say that these are different branches of a conversation, which grow together again at a certain point and thereby form conclusions. At least two or more suggestions lead to a new question. Conclusions in discussions are important. By them, it is possible to track down hidden intensions and to plan the course of the further conversation.
+### 3. Diamond structures as a basis for networks
+One could also say that these are different branches of a conversation, which grow together again at a certain point and thereby form conclusions. At least two or more suggestions lead to a new node. Conclusions in discussions are important. By them, it is possible to track down hidden intensions and to plan the course of the further conversation.
 
 Nevertheless, it is not possible to just build that with some chatbot kits. Such things sometimes have to be solved by cumbersome self-programming.
 
-![conclusion-structures-in-conversations](http://steampixel.de/en/content/images/2018/04/conclusion-structures-in-conversations.jpg)
+![conclusion-structures-in-conversations](/blogimages/why-a-conversation-does-not-fit-into-a-tree/node-diamond.png)
 
-### 4. Diamond structures as a basis for networks
-Diamond structures arise when you bring the branches of a tree together again. They are the combination of trees and conclusions. This structure can not be reproduced with a pure tree structure. The merging of branches, which in turn have their origin in a single node, already has network character.
-
-![diamond-structures-in-conversations](http://steampixel.de/en/content/images/2018/04/diamond-structures-in-conversations.jpg)
-
-### 5. Circles
-The given example may not really be common in conversations, but such constructs appear in simpler forms. In this example, all questions are processed one after the other. Only the point of entry into the chain depends on a specific answer. The questions are not asked endlessly in a circle, since each is only asked once.
-
-![dependent-cahin-starts-in-conversations](http://steampixel.de/en/content/images/2018/04/dependent-cahin-starts-in-conversations.jpg)
-
-### 6. Network-like conversational structures
+### 4. Network-like conversational structures
 We can create network-like conversation structures by combining chains, tree structures, diamond patterns and circles. Even very complex conversation patterns of questions and suggestions can be implemented.
 
-![network-structures-in-conversations](http://steampixel.de/en/content/images/2018/04/network-structures-in-conversations.jpg)
+![network-structures-in-conversations](/blogimages/why-a-conversation-does-not-fit-into-a-tree/network.png)
 
-### 7. Deep Contextual Conclusions
+### 5. Deep Contextual Conclusions
 These are conclusions that depend on many factors at the same time. They do not only depend on conditions that are directly related to a conclusion. The triggering conditions can also be stacked as seen in the following graphic.
 
-![keeping-the-context](http://steampixel.de/en/content/images/2018/04/keeping-the-context.jpg)
+![keeping-the-context](/blogimages/why-a-conversation-does-not-fit-into-a-tree/deep-conclusion.png)
 
 ## You do not see the network for the trees
 I can understand that this headline may confuse you. Let me explain it to you. After all, that might be the reason why a tree structure is sometimes found in botbuilders even though it does not belong there.
 
 The network-like planned structure of how conversations can proceed differs fundamentally from the structure that the conversation assumes in the actual course of the conversation. This means you can plan a conversation as a network, but in the direct conversation it takes on a tree structure again. Moreover, these trees are more visible in reality than the underlying networks of information and expertise.
 
-Due to this fact not all possible paths that are defined in a network are ultimately followed. When questions have been answered, they are usually not asked again in a conversation. You can see that on the graphic below. I marked the course of the conversation in red. Do you recognize the tree inside the network?
+Due to this fact not all possible paths that are defined in a network are ultimately followed. When questions have been answered, they are usually not asked again in a conversation. You can see that on the graphic below. I marked the course of the conversation in black. Do you recognize the tree inside the network?
 
-![trees-in-networks](http://steampixel.de/en/content/images/2018/04/trees-in-networks.jpg)
+![trees-in-networks](/blogimages/why-a-conversation-does-not-fit-into-a-tree/tree-inside-network.png)
 
 > Theoretically defined network-like conversations will collapse based on the decisions made within a conversation to individual conversation trees.
 

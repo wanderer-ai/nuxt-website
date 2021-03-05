@@ -35,7 +35,9 @@ module.exports = {
   // So I have to define every static blog route in here
   generate: {
     routes: [
-      '/blog/why-i-built-wanderer.ai'
+      '/blog/why-i-built-wanderer.ai',
+      '/blog/why-a-conversation-does-not-fit-into-a-tree',
+      '/blog/conversations-in-relational-databases'
     ]
   },
 

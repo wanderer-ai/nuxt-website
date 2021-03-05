@@ -83,12 +83,22 @@ html {
   }
 }
 
+.content ol {
+  @apply mb-6 text-xl list-decimal pl-10;
+}
+
 .content ul {
-  @apply mb-6 text-xl;
+  @apply mb-6 text-xl list-disc;
 }
 
 .content ul li {
   list-style: inside;
+}
+
+.content table {
+  @apply mb-6;
+  border-spacing: 16px;
+  border-collapse: separate;
 }
 
 /*
