@@ -17,6 +17,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        type: 'module',
+        src: "https://cdn.jsdelivr.net/gh/wanderer-ai/cdn/blob/main/chat-webcomponent/wanderer-chat.js"
+      }
     ]
   },
   /*

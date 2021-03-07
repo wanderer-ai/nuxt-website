@@ -5,6 +5,8 @@
 
     <a href="/roadmap"class="ribbon bg-white text-black p-4 shadow-md hidden sm:block">Public Prototype</a>
 
+    <wanderer-chat flow-url="https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/welcome.json" base-path="/"></wanderer-chat>
+
   </div>
 </template>
 
